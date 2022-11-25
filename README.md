@@ -38,8 +38,6 @@ Wifi unico recomendado (solo estas no incistas)
 1. WebCam Logitech Brio; C92 PRO
 1. TV OLED EVO 42.
 
-## Software
-
 ## USB Instalacion
 
 1. Descargar Sistema Operativo

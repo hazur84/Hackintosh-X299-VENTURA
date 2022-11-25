@@ -1,6 +1,12 @@
 # Hackintosh-X299-VENTURA
 X299 VENTURA OPENCORE 0.86
 
+# Descargas principales
+
+1. OpenCore https://github.com/acidanthera/OpenCorePkg/releases
+2. OpenCorePkg (opens new window), highly recommend running the debug version to show more info
+3. ProperTree (opens new window)to edit .plist files 
+
 
 ## Hardware
 
@@ -8,7 +14,7 @@ GPU Recomendados
 
 1. AMD RX 5XX (550 A 590)
 5. AMD RX 55XX (5500 A 5700)
-8. AMD RX 6600 XT 
+8. AMD RX 6600 XT (Monterey 12.1 o superior)
 
 Evitar estos discos duros:
 

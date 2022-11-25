@@ -13,9 +13,10 @@ X299 VENTURA OPENCORE 0.86
 
 GPU Recomendados
 
-1. AMD RX 5XX (550 A 590)
-5. AMD RX 55XX (5500 A 5700)
+1. AMD RX 5XX (560 A 590) (Mojave o Superior)
+5. AMD RX 55XX (5500 5600 y 5700) (Catalina o superior)
 8. AMD RX 6600 XT (Monterey 12.1 o superior)
+9. AMD RX 6800 y 6900 XT (Big Sur o superior)
 
 Evitar estos discos duros:
 

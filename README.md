@@ -2,7 +2,7 @@
 X299 VENTURA OPENCORE 0.86
 
 
-##Hardware
+## Hardware
 
 Evitar estos discos duros:
 
@@ -30,7 +30,7 @@ Wifi unico recomendado (solo estas no incistas)
 1. BCM94350
 
 
-##Perifericos
+## Perifericos
 
 1. Magic Trackpad
 1. Logitech MX
@@ -38,9 +38,9 @@ Wifi unico recomendado (solo estas no incistas)
 1. WebCam Logitech Brio; C92 PRO
 1. TV OLED EVO 42.
 
-##Software
+## Software
 
-##USB Instalacion
+## USB Instalacion
 
 1. Descargar Sistema Operativo
 

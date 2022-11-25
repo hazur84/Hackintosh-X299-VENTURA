@@ -38,6 +38,8 @@ Wifi unico recomendado (solo estas no incistas)
 1. WebCam Logitech Brio; C92 PRO
 1. TV OLED EVO 42.
 
+## CONFIGURACION DEL BIOS DE LA PLACA MADRE
+
 ## USB Instalacion
 
 1. Descargar Sistema Operativo
@@ -50,3 +52,8 @@ mkdir -p ~/macOS-installer && cd ~/macOS-installer && curl https://raw.githubuse
 
 Leer este tutorial para crear el disco usb de arranque e instalaciòn:
 https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os
+
+Una vez que esté creada la USB, didigirse a la carpeta EFI, descargar las carpetas y pegarlas en la memoria USB:
+
+1. BOOT
+2. OC

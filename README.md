@@ -53,7 +53,7 @@ mkdir -p ~/macOS-installer && cd ~/macOS-installer && curl https://raw.githubuse
 Leer este tutorial para crear el disco usb de arranque e instalaciòn:
 https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os
 
-Una vez que esté creada la USB, didigirse a la carpeta EFI, descargar las carpetas y pegarlas en la memoria USB:
+1. Monte la particion EFI de la USB y pegue las siguientes carpetas:
 
 1. BOOT
 2. OC

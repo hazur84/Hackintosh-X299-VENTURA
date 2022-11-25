@@ -48,4 +48,5 @@ mkdir -p ~/macOS-installer && cd ~/macOS-installer && curl https://raw.githubuse
 
 <img width="578" alt="image" src="https://user-images.githubusercontent.com/8379954/203933257-3ee20601-89da-47c8-aeab-846b2a820659.png">
 
-
+Leer este tutorial para crear el disco usb de arranque e instalaciòn:
+https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os

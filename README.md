@@ -56,4 +56,4 @@ https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.ht
 1. Monte la particion EFI de la USB y pegue las siguientes carpetas:
 
 a. BOOT
-a. OC
+b. OC

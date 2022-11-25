@@ -4,8 +4,9 @@ X299 VENTURA OPENCORE 0.86
 # Descargas principales
 
 1. OpenCore https://github.com/acidanthera/OpenCorePkg/releases
-2. OpenCorePkg (opens new window), highly recommend running the debug version to show more info
-3. ProperTree (opens new window)to edit .plist files 
+1. ProperTree to edit .plist files 
+1. GenSMBIOS For generating our SMBIOS data
+2. Mount EFI
 
 
 ## Hardware

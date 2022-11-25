@@ -22,7 +22,7 @@ Discos provados y recomendados:
 1. Toshiba XG6
 1. Corsair
 
-Wifi unico recomendado (solo estas no incistas)
+Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 
 1. BCM943602
 1. BCM94360

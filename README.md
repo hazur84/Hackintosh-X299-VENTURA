@@ -4,6 +4,12 @@ X299 VENTURA OPENCORE 0.86
 
 ## Hardware
 
+GPU Recomendados
+
+1. AMD RX 5XX (550 A 590)
+5. AMD RX 55XX (5500 A 5700)
+8. AMD RX 6600 XT 
+
 Evitar estos discos duros:
 
 1. Cualquier almacenamiento basado en eMMC.
@@ -15,12 +21,11 @@ Evitar estos discos duros:
 
 Discos provados y recomendados:
 
-1. SN730 Western Digital
-1. SN750
-1. SN750
-1. Kioxa
-1. Toshiba XG6
-1. Corsair
+1. SN730 Western Digital (R: 3,400 MB/S; W: 2,700 MB/s)
+1. SN750 Western Digital
+1. SN750 Western Digital
+1. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
+1. Patriot
 
 Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 

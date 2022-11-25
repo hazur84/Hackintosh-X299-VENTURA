@@ -46,5 +46,6 @@ Ejecutar en la terminal:
 
 mkdir -p ~/macOS-installer && cd ~/macOS-installer && curl https://raw.githubusercontent.com/munki/macadmin-scripts/main/installinstallmacos.py > installinstallmacos.py && sudo python3 installinstallmacos.py
 
-<img width="574" alt="image" src="https://user-images.githubusercontent.com/8379954/203932591-afb73f90-8429-4687-b80a-2cad513d75b2.png">
+<img width="578" alt="image" src="https://user-images.githubusercontent.com/8379954/203933257-3ee20601-89da-47c8-aeab-846b2a820659.png">
+
 

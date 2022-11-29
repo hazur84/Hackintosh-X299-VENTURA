@@ -1,12 +1,21 @@
 # Hackintosh-X299-VENTURA
 X299 VENTURA OPENCORE 0.86
 
+## Setup
+
+1. Placa Madre Asus 
+2. CPU 
+3. RAM
+4. CASE
+5. WIFI
+
 # Descargas principales
 
 1. OpenCore https://github.com/acidanthera/OpenCorePkg/releases
 1. ProperTree to edit .plist files 
 1. GenSMBIOS For generating our SMBIOS data
 2. Mount EFI
+3. Kext Updater https://www.sl-soft.de/en/kext-updater/
 
 
 # Hardware

@@ -9,14 +9,6 @@ X299 VENTURA OPENCORE 0.86
 4. Case Cooler Master
 5. WiFi card BCM943602
 
-# Descargas principales
-
-1. OpenCore https://github.com/acidanthera/OpenCorePkg/releases
-1. ProperTree to edit .plist files 
-1. GenSMBIOS to generating our SMBIOS data
-2. Mount EFI to mount EFI partitions 
-3. Kext Updater to update kext files https://www.sl-soft.de/en/kext-updater/
-
 # Hardware
 
 GPU Recomendados
@@ -53,7 +45,6 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 1. BCM94352
 1. BCM94350
 
-
 ## Perifericos
 
 1. Magic Trackpad ($100 USD)
@@ -63,6 +54,14 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 1. TV LG OLED EVO 42 ($1000 USD)
 
 # CONFIGURACION DEL BIOS DE LA PLACA MADRE
+
+# Descargas principales
+
+1. OpenCore https://github.com/acidanthera/OpenCorePkg/releases
+1. ProperTree to edit .plist files 
+1. GenSMBIOS to generating our SMBIOS data
+2. Mount EFI to mount EFI partitions 
+3. Kext Updater to update kext files https://www.sl-soft.de/en/kext-updater/
 
 # USB Instalacion
 

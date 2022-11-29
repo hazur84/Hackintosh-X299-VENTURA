@@ -14,10 +14,10 @@ X299 VENTURA OPENCORE 0.86
 GPU Recomendados
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus
 
-1. AMD WX 5100 7100 9100 (Mojave o Superior)
-1. AMD RX VEGA 56 o 64 (Mojave o Superior)
-1. AMD RX 5XX (560 A 590) (Mojave o Superior)
-5. AMD RX 55XX (5500 5600 y 5700) (Catalina o superior)
+1. AMD WX 5100; 7100; 9100 (Mojave o Superior)
+1. AMD RX VEGA 56; 64 (Mojave o Superior)
+1. AMD RX 5XX (560; 570; 580; 590) (Mojave o Superior)
+5. AMD RX 5X00 XT (5500; 5600; 5700) (Catalina o superior)
 8. AMD RX 6600 XT (Monterey 12.1 o superior)
 9. AMD RX 6800 y 6900 XT (Big Sur o superior)
 
@@ -48,11 +48,11 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 
 ## Perifericos
 
-1. Magic Trackpad
-1. Logitech MX
+1. Magic Trackpad ($100 USD)
+1. Logitech Keyboard MX ($100 USD)
 1. Plantronics Diadema USB
-1. WebCam Logitech Brio; C92 PRO
-1. TV OLED EVO 42.
+1. WebCam Logitech Brio; C92 PRO ($50 USD)
+1. TV LG OLED EVO 42 ($1000 USD)
 
 ## CONFIGURACION DEL BIOS DE LA PLACA MADRE
 

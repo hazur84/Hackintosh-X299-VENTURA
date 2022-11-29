@@ -12,7 +12,10 @@ X299 VENTURA OPENCORE 0.86
 ## Hardware
 
 GPU Recomendados
+https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus
 
+1. AMD WX 5100 7100 9100 (Mojave o Superior)
+1. AMD RX VEGA 56 o 64 (Mojave o Superior)
 1. AMD RX 5XX (560 A 590) (Mojave o Superior)
 5. AMD RX 55XX (5500 5600 y 5700) (Catalina o superior)
 8. AMD RX 6600 XT (Monterey 12.1 o superior)

@@ -9,7 +9,7 @@ X299 VENTURA OPENCORE 0.86
 2. Mount EFI
 
 
-## Hardware
+# Hardware
 
 GPU Recomendados
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus
@@ -54,9 +54,9 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 1. WebCam Logitech Brio; C92 PRO ($50 USD)
 1. TV LG OLED EVO 42 ($1000 USD)
 
-## CONFIGURACION DEL BIOS DE LA PLACA MADRE
+# CONFIGURACION DEL BIOS DE LA PLACA MADRE
 
-## USB Instalacion
+# USB Instalacion
 
 1. Descargar Sistema Operativo
 
@@ -73,3 +73,7 @@ https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.ht
 
 a. BOOT
 b. OC
+
+# Prerequisitos y actualizaciones
+https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
+

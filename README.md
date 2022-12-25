@@ -71,15 +71,15 @@ Ejecutar en la terminal:
 
 mkdir -p ~/macOS-installer && cd ~/macOS-installer && curl https://raw.githubusercontent.com/munki/macadmin-scripts/main/installinstallmacos.py > installinstallmacos.py && sudo python3 installinstallmacos.py
 
-<img width="578" alt="image" src="https://user-images.githubusercontent.com/8379954/203933257-3ee20601-89da-47c8-aeab-846b2a820659.png">
+<img width="571" alt="DownloadVentura" src="https://user-images.githubusercontent.com/8379954/209476932-c78883e3-38d5-483e-9ee1-42f173c74372.png">
 
 Leer este tutorial para crear el disco usb de arranque e instalaciòn:
 https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os
 
 1. Monte la particion EFI de la USB y pegue las siguientes carpetas:
 
-a. BOOT
-b. OC
+- BOOT
+- OC
 
 # Prerequisitos y actualizaciones
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html

@@ -3,10 +3,13 @@
 ## Setup
 
 1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
-2. CPU Core I9-9920X (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
-3. RAM 64Gb 30000 Mhz XPG DDR4
-4. Case Cooler Master
-5. WiFi card BCM943602
+1. GPU GygaByte RX590
+1. SSD M2 1TB WD730SN WESTERN DIGITAL (HACKINTOSH)
+1. SSD M2 1TB WD730SN WESTERN DIGITAL (WINDOWS 11)
+1. CPU Core I9-9920X (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
+1. RAM 64Gb 16Gbx4 @ 3,000 Mhz XPG DDR4
+1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
+1. WiFi card BCM943602
 
 # Hardware
 

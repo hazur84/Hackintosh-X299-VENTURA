@@ -1,4 +1,4 @@
-# Hackintosh-X299-VENTURA
+# Hackintosh X299 MAC OS VENTURA 13.1
 X299 VENTURA OPENCORE 0.86
 
 ## Setup

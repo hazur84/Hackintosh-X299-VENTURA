@@ -3,8 +3,8 @@ X299 VENTURA OPENCORE 0.86
 
 ## Setup
 
-1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) 
-2. CPU i9-78000x 3.5G Ghz 24 cores
+1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
+2. CPU Core I9-9920X (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
 3. RAM 64Gb 30000 Mhz XPG DDR4
 4. Case Cooler Master
 5. WiFi card BCM943602

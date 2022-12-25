@@ -3,7 +3,7 @@ X299 VENTURA OPENCORE 0.86
 
 ## Setup
 
-1. Placa Madre Asus 
+1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) 
 2. CPU i9-78000x 3.5G Ghz 24 cores
 3. RAM 64Gb 30000 Mhz XPG DDR4
 4. Case Cooler Master

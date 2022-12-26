@@ -60,11 +60,11 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 
 Reset to Default Settings before adjusting to these settings. It is recommended to use one of the more recent BIOS revisions.
 
-1. AI Tweaker
-  * AI Overclock Tuner - XMP
-  * CPU SVID Support - Enabled
+- AI Tweaker
+  - AI Overclock Tuner - XMP
+  - CPU SVID Support - Enabled
 
-1. Advanced
+- Advanced
   - CPU Configuration
     - MSR Lock Control - Disabled
     CPU Power Management Configuration
@@ -87,11 +87,11 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
   - PCH Storage Configuration
     - SATA Mode Selection - AHCI
 
-1. Boot
+- Boot
   - CSM (Compatability Support Module)
     - Launch CSM - Disabled
 
-1. Secure Boot
+- Secure Boot
     - OS Type - Other OS
 
 # USB Instalacion

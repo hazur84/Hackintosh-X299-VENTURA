@@ -67,7 +67,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 - Advanced
   - CPU Configuration
     - MSR Lock Control - Disabled
-    CPU Power Management Configuration
+  - CPU Power Management Configuration
       - Enhanced Intel SpeedStep Technology - Enabled
       - Turbo Mode - Enabled
       - Autonomous Core C-State - Enabled
@@ -92,7 +92,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
     - Launch CSM - Disabled
 
 - Secure Boot
-    - OS Type - Other OS
+    - OS Type / Other OS
 
 # USB Instalacion
 

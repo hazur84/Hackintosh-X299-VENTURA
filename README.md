@@ -98,8 +98,18 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
 
-
 1. Monte la particion EFI de la USB con [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) y pegue la carpeta EFI.
+
+# Configuracion del archivo config.plist
+
+## PlatformInfo
+You will need to create your own Serial Number and SMUUID. Instructions can be found here. Remember to adjust the SMBIOS a iMacPro1,1
+
+1. Using your results from GenSMBIOS, adjust the following (replace '[Removed]') under Generic.
+- MLB: Board Serial
+- ROM: ROM
+- SystemSerialNumber: Serial
+- SystemUUID: SmUUID
 
 1. Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
 

@@ -106,15 +106,9 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 # Configuracion del archivo config.plist
 
-Para evitar posibles errores personalice el archivo config.plist para esto requiere usar GenSMBIOS.
+You will need to create your own Serial Number and SMUUID. Instructions can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/skylake-x.html#platforminfo). Remember to adjust the SMBIOS a iMacPro1,1
 
-You will need to create your own Serial Number and SMUUID. Instructions can be found here. Remember to adjust the SMBIOS a iMacPro1,1
-
-1. Using your results from GenSMBIOS, adjust the following (replace '[Removed]') under Generic.
-- MLB: Board Serial
-- ROM: ROM
-- SystemSerialNumber: Serial
-- SystemUUID: SmUUID
+<img width="682" alt="Screenshot 2022-12-26 at 17 16 27" src="https://user-images.githubusercontent.com/8379954/209587973-53dde243-87b7-43ab-aec8-29a67f152e95.png">
 
 1. Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
 

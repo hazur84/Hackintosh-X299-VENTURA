@@ -106,7 +106,8 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 # Configuracion del archivo config.plist
 
-## PlatformInfo
+Para evitar posibles errores personalice el archivo config.plist para esto requiere usar GenSMBIOS.
+
 You will need to create your own Serial Number and SMUUID. Instructions can be found here. Remember to adjust the SMBIOS a iMacPro1,1
 
 1. Using your results from GenSMBIOS, adjust the following (replace '[Removed]') under Generic.

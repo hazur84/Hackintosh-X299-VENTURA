@@ -18,12 +18,12 @@
 [Guía de GPU Recomendados](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) con MacOS Ventura
 
-1. AMD WX 5100; 7100; 9100 (Mojave o Superior)
-1. AMD RX VEGA 56; 64 (Mojave o Superior)
-1. AMD RX 5XX (560; 570; 580; 590) (Mojave o Superior)
-1. AMD RX 5X00 XT (5500; 5600; 5700) (Catalina o superior)
-1. AMD RX 6600 XT (Monterey 12.1 o superior)
-1. AMD RX 6800 y 6900 XT (Big Sur o superior)
+1. AMD WX 5100; 7100; 9100
+1. AMD RX VEGA 56; 64 
+1. AMD RX 5XX (560; 570; 580; 590) 
+1. AMD RX 5X00 XT (5500; 5600; 5700) 
+1. AMD RX 6600; 6600XT 
+1. AMD RX 6800 XT y 6900 XT
 
 Evitar estos discos duros:
 
@@ -94,29 +94,22 @@ Boot
   Secure Boot
     * OS Type - Other OS
 
-# Descargas principales
-
-1. OpenCore https://github.com/acidanthera/OpenCorePkg/releases
-1. ProperTree to edit .plist files 
-1. GenSMBIOS to generating our SMBIOS data
-2. Mount EFI to mount EFI partitions 
-3. Kext Updater to update kext files https://www.sl-soft.de/en/kext-updater/
-
 # USB Instalacion
 
-1. Descargar Sistema Operativo
+1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
 
-Ejecutar en la terminal:
-
-mkdir -p ~/macOS-installer && cd ~/macOS-installer && curl https://raw.githubusercontent.com/munki/macadmin-scripts/main/installinstallmacos.py > installinstallmacos.py && sudo python3 installinstallmacos.py
-
-<img width="571" alt="DownloadVentura" src="https://user-images.githubusercontent.com/8379954/209476932-c78883e3-38d5-483e-9ee1-42f173c74372.png">
-
-Leer este tutorial para crear el disco usb de arranque e instalaciòn:
-https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os
 
 1. Monte la particion EFI de la USB con [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) y pegue la carpeta EFI.
+
+1. Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
 
 # Prerequisitos y actualizaciones
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
+# Descargas principales
+
+1. [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
+1. ProperTree to edit .plist files 
+1. GenSMBIOS to generating our SMBIOS data
+2. Mount EFI to mount EFI partitions 
+3. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files 

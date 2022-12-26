@@ -120,10 +120,10 @@ https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 1. [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 1. ProperTree to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data
-2. Mount EFI to mount EFI partitions 
+2. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions 
 3. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files 
 
-#CREDITS
+# CREDITS
 
 SHINOKI77
 https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI

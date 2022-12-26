@@ -11,7 +11,7 @@
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
 1. WiFi card BCM943602 con adaptaor pcie
 
-<img width="392" alt="Screenshot 2022-12-26 at 15 47 31" src="https://user-images.githubusercontent.com/8379954/209585115-3c898e89-8555-4c95-8d78-b7c022ff5789.png">
+<img width="392" alt="MacOsVentura" src="https://user-images.githubusercontent.com/8379954/209585330-9cca7e25-83f8-49d4-83cf-e5242acfb1ef.png">
 
 # HARDWARE
 

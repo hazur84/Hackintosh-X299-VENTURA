@@ -60,39 +60,39 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 
 Reset to Default Settings before adjusting to these settings. It is recommended to use one of the more recent BIOS revisions.
 
-AI Tweaker
+1. AI Tweaker
   * AI Overclock Tuner - XMP
   * CPU SVID Support - Enabled
 
-Advanced
-  CPU Configuration
-    * MSR Lock Control - Disabled
+1. Advanced
+  - CPU Configuration
+    - MSR Lock Control - Disabled
     CPU Power Management Configuration
-      * Enhanced Intel SpeedStep Technology - Enabled
-      * Turbo Mode - Enabled
-      * Autonomous Core C-State - Enabled
-      * Enhanced Halt State (C1E) - Enabled
-      * CPU C6 Report - Enabled
-      * Package C State - C6(non Retention) state
-      * Intel(R) Speed Shift Technology - Enabled
-      * MFC Mode Override - OS Native Support
+      - Enhanced Intel SpeedStep Technology - Enabled
+      - Turbo Mode - Enabled
+      - Autonomous Core C-State - Enabled
+      - Enhanced Halt State (C1E) - Enabled
+      - CPU C6 Report - Enabled
+      - Package C State - C6(non Retention) state
+      - Intel(R) Speed Shift Technology - Enabled
+      - MFC Mode Override - OS Native Support
 
-  System Agent (SA) Configuration
-    * Intel VT for Directed I/O (VT-d) - Enabled
+  - System Agent (SA) Configuration
+    - Intel VT for Directed I/O (VT-d) - Enabled
 
-  PCI Subsystem Settings
-    * Above 4G Decoding - Enabled
-    * Re-Size BAR Support - Auto
+  - PCI Subsystem Settings
+    - Above 4G Decoding - Enabled
+    - Re-Size BAR Support - Auto
 
-  PCH Storage Configuration
-    * SATA Mode Selection - AHCI
+  - PCH Storage Configuration
+    - SATA Mode Selection - AHCI
 
-Boot
-  CSM (Compatability Support Module)
-    * Launch CSM - Disabled
+1. Boot
+  - CSM (Compatability Support Module)
+    - Launch CSM - Disabled
 
-  Secure Boot
-    * OS Type - Other OS
+1. Secure Boot
+    - OS Type - Other OS
 
 # USB Instalacion
 

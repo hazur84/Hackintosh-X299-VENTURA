@@ -1,6 +1,6 @@
 # Hackintosh X299 MacOS Ventura 13.1 - OPENCORE 0.86 (26/dic/2022)
 
-## Setup
+## SETUP
 
 1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
 1. GPU GygaByte RX590 8Gb

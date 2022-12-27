@@ -1,4 +1,4 @@
-# HACKINTOSH X299 MAC OS VENTURA 13.1 - OPENCORE 0.86 (26/dic/2022)
+# Hackintosh X299 MacOS Ventura 13.1 - OPENCORE 0.86 (26/dic/2022)
 
 ## Setup
 
@@ -122,6 +122,12 @@ https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data
 2. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions 
 3. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files 
+
+#OTHERS
+
+Disable Gatekeeper With Terminal
+1. Launch Terminal from Applications > Utilities.
+2. Enter the following command: sudo spctl --master-disable
 
 # CREDITS
 

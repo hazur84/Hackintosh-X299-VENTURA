@@ -123,7 +123,7 @@ The patch is added in this way:
 
 <img width="961" alt="Screenshot 2023-01-06 at 11 44 37" src="https://user-images.githubusercontent.com/8379954/211068826-b8cc5216-a3d7-4de2-9ffe-ce89935ac110.png">
 
-<code>
+```js
 <key>DeviceProperties</key>
     <dict>
         <key>Add</key>
@@ -143,7 +143,7 @@ The patch is added in this way:
         <key>Delete</key>
         <dict/>
     </dict>
-</code>
+```
 
 Notes:
 

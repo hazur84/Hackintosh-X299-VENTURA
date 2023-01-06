@@ -11,30 +11,29 @@
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
 1. WiFi card BCM943602 con adaptaor pcie
 
-<img width="392" alt="MacOsVentura" src="https://user-images.githubusercontent.com/8379954/209585330-9cca7e25-83f8-49d4-83cf-e5242acfb1ef.png">
+<img width="392" alt="Screenshot 2023-01-06 at 11 17 02" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png">
 
 # HARDWARE
 
 [Guía de GPU Recomendados](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) con MacOS Ventura
 
-1. AMD WX 5100; 7100; 9100
-1. AMD RX VEGA 56; 64 
+1. AMD WX X100 (4100; 5100; 7100; 9100)
+1. AMD RX VEGA (56; 64) 
 1. AMD RX 5XX (560; 570; 580; 590) 
 1. AMD RX 5X00 XT (5500; 5600; 5700) 
-1. AMD RX 6600; 6600XT 
-1. AMD RX 6800 XT y 6900 XT
+1. AMD RX 6X00 XT (6600; 6800; 6900) 
 
-Evitar estos discos duros:
+Avoid this hard drives:
 
-1. Cualquier almacenamiento basado en eMMC.
+1. Anything HDSSD eMMC.
 1. Samsung PM981 y PM991 
 1. Micron 2200S
 1. SKHynix PC711
 1. Samsung 970 Evo Plus
 1. Intel 600p
 
-Discos provados y recomendados:
+Har drives verified:
 
 1. SN730 Western Digital (R: 3,400 MB/S; W: 2,700 MB/s)
 1. SN750 Western Digital
@@ -56,7 +55,7 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 1. WebCam Logitech Brio; C92 PRO ($50 USD)
 1. TV LG OLED EVO 42 ($1000 USD)
 
-# CONFIGURACION DEL BIOS DE LA PLACA MADRE
+# SETUP BIOS MOTHERBOARD
 
 Reset to Default Settings before adjusting to these settings. It is recommended to use one of the more recent BIOS revisions.
 
@@ -94,6 +93,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 - Secure Boot
     - OS Type / Other OS
 
+
 # USB Instalacion
 
 1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
@@ -111,6 +111,49 @@ You will need to create your own Serial Number and SMUUID. Instructions can be f
 <img width="682" alt="Screenshot 2022-12-26 at 17 16 27" src="https://user-images.githubusercontent.com/8379954/209587973-53dde243-87b7-43ab-aec8-29a67f152e95.png">
 
 Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
+
+#RX6X00 XT (6600; 6800; 6900)
+
+AMD RX 6600 on Ventura with MacPro or iMacPro SMBIOS
+AMD Navi cards run fine on Ventura when using iMac SMBIOS with agdpmod=pikera in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
+
+By default, Radeon framebuffer (ATY,Radeon) is loaded. But, in AMDRadeonX6000Framebuffer.kext >> Contents >> Info.plist we can see that AMDRadeonNavi23Controller has ATY,Henbury and 6600 series are Navi 23. This is why this framebuffer is selected.
+
+The patch is added in this way:
+
+<key>DeviceProperties</key>
+    <dict>
+        <key>Add</key>
+        <dict>
+            <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+            <dict>
+                <key>@0,name</key>
+                <string>ATY,Henbury</string>
+                <key>@1,name</key>
+                <string>ATY,Henbury</string>
+                <key>@2,name</key>
+                <string>ATY,Henbury</string>
+                <key>@3,name</key>
+                <string>ATY,Henbury</string>
+            </dict>
+        </dict>
+        <key>Delete</key>
+        <dict/>
+    </dict>
+Notes:
+
+PCI path to the GPU may be the same on your system but it is convenient to check it with [Hackintool](https://github.com/benbaker76/Hackintool)
+
+<img width="1821" alt="Screenshot 2023-01-06 at 11 08 05" src="https://user-images.githubusercontent.com/8379954/211068020-e24e546e-e7f7-48bb-a236-47b55334f85b.png">
+
+If needed for other Navi cards, the framebuffers to be loaded are different for each family:
+
+5500	ATY,Python
+5700	ATY,Adder
+6600	ATY,Henbury
+6800	ATY,Belknap
+6900	ATY,Carswell
+
 
 # Prerequisitos y actualizaciones
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html

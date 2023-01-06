@@ -1,9 +1,9 @@
-# Hackintosh X299 MacOS Ventura 13.1 - OPENCORE 0.86 (26/dic/2022)
+# Hackintosh X299 MacOS Ventura 13.1 - RX6600XT - OPENCORE 0.86 (6/ene/2023)
 
 ## SETUP
 
 1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
-1. GPU GygaByte RX590 8Gb
+1. GPU GygaByte RX 6600 XT 8Gb
 1. SSD M2 1TB WD730SN WESTERN DIGITAL (HACKINTOSH)
 1. SSD M2 1TB WD730SN WESTERN DIGITAL (WINDOWS 11)
 1. CPU Core I9-9920X (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
@@ -115,13 +115,14 @@ Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco du
 # Prerequisitos y actualizaciones
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
-# Descargas principales
+# Main Downloads
 
 1. [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 1. ProperTree to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data
-2. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions 
-3. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files 
+1. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions 
+1. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files
+1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
 
 #OTHERS
 
@@ -131,5 +132,5 @@ Disable Gatekeeper With Terminal
 
 # CREDITS
 
-SHINOKI77
-https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI
+[SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
+[Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)

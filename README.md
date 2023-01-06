@@ -1,4 +1,4 @@
-# Hackintosh X299 MacOS Ventura 13.1 - RX6600XT - OPENCORE 0.86 (6/ene/2023)
+# Hackintosh X299 MacOS Ventura 13.1 - RX6600XT - OC 0.86 (6/ene/2023)
 
 ## SETUP
 

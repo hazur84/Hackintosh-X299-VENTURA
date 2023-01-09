@@ -159,6 +159,7 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 |GPU  |value       |
 |-----|------------|   
 |5500	|ATY,Python  |
+|5600 |ATY,Sunbeam |
 |5700	|ATY,Adder   |  
 |6600	|ATY,Henbury |
 |6800	|ATY,Belknap |

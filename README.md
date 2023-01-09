@@ -4,9 +4,9 @@
 
 1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
 1. GPU GygaByte RX 6600 XT 8Gb
-1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (HACKINTOSH) Read:3,400 MB/s Write:
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (HACKINTOSH) Read:3,400 MB/s ; Write:
 2,700 MB/s
-1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read:3,400 MB/s Write:
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read:3,400 MB/s ; Write:
 2,700 MB/s
 1. CPU Core I9-9920X (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
 1. RAM 64Gb 16Gbx4 @ 3,000 Mhz XPG DDR4

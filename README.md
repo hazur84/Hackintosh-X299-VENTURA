@@ -105,6 +105,8 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 3. Descomprima en la particion EFI de la USB.
 
+4. Configure el archivo config.plist 
+
 # Configuracion del archivo config.plist
 
 You will need to create your own Serial Number and SMUUID. Instructions can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/skylake-x.html#platforminfo). Remember to adjust the SMBIOS a iMacPro1,1
@@ -190,3 +192,6 @@ Disable Gatekeeper With Terminal
 1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
 1. [Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)
 1. [PEREZ987](https://github.com/perez987/6600XT-on-macOS-12-13-with-PowerPlayTable) framebuffer navicards
+
+# TO DO
+Upgrade code to OPENCORE 8.8 (someone wants to help?)

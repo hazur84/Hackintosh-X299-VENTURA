@@ -30,7 +30,7 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD RX VEGA (56; 64) 
 1. AMD RX 5XX (560; 570; 580; 590) 
 1. AMD RX 5X00 XT (5500; 5600; 5700) 
-1. AMD RX 6X00 XT (6600; 6800; 6900) this series support hdmi 2.1 4k@120hz
+1. AMD RX 6X00 XT (6600; 6800; 6900) this series only support hdmi 2.1 4k@120hz
 1. AMD RX 6X00 XT (6400; 6500; 6700) this series avoid, not working in macos
 
 Avoid this hard drives:

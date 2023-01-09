@@ -131,7 +131,7 @@ The patch is added in this way:
     <dict>
         <key>Add</key>
         <dict>
-            <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+            <key>PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
             <dict>
                 <key>@0,name</key>
                 <string>ATY,Henbury</string>

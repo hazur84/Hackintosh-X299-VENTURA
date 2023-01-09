@@ -172,7 +172,7 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 # Prerequisitos y actualizaciones
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
-# Main Downloads
+# Tools Downloads
 
 1. [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
 1. ProperTree to edit .plist files 

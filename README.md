@@ -51,10 +51,7 @@ Hard drives verified:
 
 WiFi cards supported (avoid all others):
 
-1. BCM943602
-1. BCM94360
-1. BCM94352
-1. BCM94350
+BCM943XXX (BCM94350, BCM94352; BCM94360; BCM943602)
 
 # SETUP BIOS MOTHERBOARD
 

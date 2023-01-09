@@ -13,11 +13,11 @@
 
 ## PHERIPHERALS
 
-1. Magic Trackpad ($100 USD)
-1. Logitech Keyboard MX ($100 USD)
+1. Magic Trackpad
+1. Logitech Keyboard MX
 1. Plantronics Diadema USB
-1. WebCam Logitech Brio; C92 PRO ($50 USD)
-1. TV LG OLED EVO 42 HDMI 2.1 4K@120HZ ($1000 USD)
+1. WebCam Logitech Brio; C92 PRO
+1. TV LG OLED EVO 42 HDMI 2.1 4K@120HZ
 
 <img width="392" alt="Screenshot 2023-01-06 at 11 17 02" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png">
 

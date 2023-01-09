@@ -49,7 +49,7 @@ Hard drives verified:
 1. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
 1. Patriot
 
-Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
+WiFi cards supported (avoid all others):
 
 1. BCM943602
 1. BCM94360

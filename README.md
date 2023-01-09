@@ -4,10 +4,10 @@
 
 1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
 1. GPU [GygaByte RX 6600 XT](https://www.gigabyte.com/Graphics-Card/GV-R66XTGAMING-OC-8GD/sp) 8Gb
-1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (Mac OS 13) Read:3,400 MB/s ; Write:
-3,100 MB/s
-1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read:3,400 MB/s ; Write:
-3,100 MB/s
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (Mac OS 13) Read: 3,400 MB/s ; Write:
+ 3,100 MB/s
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read: 3,400 MB/s ; Write:
+ 3,100 MB/s
 1. CPU [Intel® Core™ i9-9920X](https://www.intel.com/content/www/us/en/products/sku/189127/intel-core-i99920x-xseries-processor-19-25m-cache-up-to-4-50-ghz/specifications.html) (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
 1. RAM 64Gb 16Gbx4 @ 3,000 Mhz XPG DDR4
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)

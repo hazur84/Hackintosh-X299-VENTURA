@@ -23,7 +23,7 @@
 
 # HARDWARE
 
-[GPU Buyer's Guide](
+Please check [GPU Buyer's Guide](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura
 
 1. AMD WX X100 (4100; 5100; 7100; 9100)

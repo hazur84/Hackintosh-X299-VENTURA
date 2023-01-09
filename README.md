@@ -2,7 +2,7 @@
 
 ## SETUP
 
-1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
+1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
 1. GPU GygaByte RX 6600 XT 8Gb
 1. SSD M2 1TB WD730SN WESTERN DIGITAL (HACKINTOSH)
 1. SSD M2 1TB WD730SN WESTERN DIGITAL (WINDOWS 11)
@@ -10,6 +10,14 @@
 1. RAM 64Gb 16Gbx4 @ 3,000 Mhz XPG DDR4
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
 1. WiFi card BCM943602 con adaptaor pcie
+
+## PHERIPHERALS
+
+1. Magic Trackpad ($100 USD)
+1. Logitech Keyboard MX ($100 USD)
+1. Plantronics Diadema USB
+1. WebCam Logitech Brio; C92 PRO ($50 USD)
+1. TV LG OLED EVO 42 HDMI 2.1 4K@120HZ ($1000 USD)
 
 <img width="392" alt="Screenshot 2023-01-06 at 11 17 02" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png">
 
@@ -46,14 +54,6 @@ Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
 1. BCM94360
 1. BCM94352
 1. BCM94350
-
-## Perifericos
-
-1. Magic Trackpad ($100 USD)
-1. Logitech Keyboard MX ($100 USD)
-1. Plantronics Diadema USB
-1. WebCam Logitech Brio; C92 PRO ($50 USD)
-1. TV LG OLED EVO 42 HDMI 2.1 4K@120HZ ($1000 USD)
 
 # SETUP BIOS MOTHERBOARD
 
@@ -177,7 +177,7 @@ https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 1. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files
 1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
 
-#OTHERS
+# OTHERS
 
 Disable Gatekeeper With Terminal
 1. Launch Terminal from Applications > Utilities.

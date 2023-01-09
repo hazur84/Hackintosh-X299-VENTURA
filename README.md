@@ -92,7 +92,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
     - OS Type / Other OS
 
 
-# USB Instalacion
+# USB pendrive instalation
 
 1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
 
@@ -118,7 +118,6 @@ AMD RX 6600 on Ventura with MacPro or iMacPro SMBIOS
 AMD Navi cards run fine on Ventura when using iMac SMBIOS with **agdpmod=pikera** in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
 
 <img width="956" alt="Screenshot 2023-01-06 at 11 57 31" src="https://user-images.githubusercontent.com/8379954/211070820-06f5ce09-feb8-4646-b36f-c474d2e2ec1c.png">
-
 
 By default, Radeon framebuffer (ATY,Radeon) is loaded. But, in AMDRadeonX6000Framebuffer.kext >> Contents >> Info.plist we can see that AMDRadeonNavi23Controller has ATY,Henbury and 6600 series are Navi 23. This is why this framebuffer is selected.
 
@@ -165,6 +164,9 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 |6800	|ATY,Belknap |
 |6900	|ATY,Carswell|
 
+
+# Problems with USB ports
+Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 
 # Prerequisitos y actualizaciones
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html

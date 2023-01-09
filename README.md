@@ -195,4 +195,5 @@ Disable Gatekeeper With Terminal
 
 # TO DO
 Upgrade code to OPENCORE 8.8 (someone wants to help?)
-[Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)
+
+Review this linkv[Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)

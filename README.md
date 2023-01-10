@@ -12,7 +12,7 @@
 1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read: 3,400 MB/s ; Write:
  3,100 MB/s
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
-1. Liquid CoolerMaster
+1. Cooler Master MasterLiquid[ML280](https://www.amazon.com.mx/gp/product/B08BV2RHZW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 2. Fans Noctua [NF-P14s](https://www.amazon.com.mx/gp/product/B00KF7O58G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 140mm x2; [NF-P12](https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 120mm x1; [NF-A6x25](https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 60 mm x2
 3. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
 

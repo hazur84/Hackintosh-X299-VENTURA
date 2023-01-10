@@ -12,7 +12,9 @@
 1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read: 3,400 MB/s ; Write:
  3,100 MB/s
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
-1. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
+1. Liquid CoolerMaster
+2. Fans Noctua 140mm x2; 120mm x1; 90mm x2
+3. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
 
 ## PHERIPHERALS
 
@@ -20,7 +22,7 @@
 1. Logitech Keyboard MX
 1. Plantronics Diadema USB
 1. WebCam Logitech Brio; C92 PRO
-1. TV LG OLED EVO 42 HDMI 2.1 4K@120HZ
+1. TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ
 
 <img width="325" alt="About This Mac" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png"><img src="https://user-images.githubusercontent.com/8379954/211470702-ce6758c5-b112-49d7-806a-9bdfa8a08892.jpg" alt="CPU Setup" width="685" height="auto">
 

@@ -12,7 +12,7 @@
 1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read: 3,400 MB/s ; Write:
  3,100 MB/s
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
-1. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) con [adaptor pcie bracket](https://www.amazon.com.mx/Deal4Go-convertidor-BCM94360CS2-BCM94360CD-BCM943602CS/dp/B082Y4YPLZ/ref=sr_1_12?keywords=BCM943602&qid=1673330880&sr=8-12](https://www.amazon.com.mx/Timack-BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Hackintosh/dp/B07SN258KJ/ref=sr_1_34?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZR6L3413ZDBN&keywords=BCM9436+pcie&qid=1673331133&sprefix=bcm9436+pcie%2Caps%2C94&sr=8-34) 
+1. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) con [adaptor pcie bracket](https://www.amazon.com.mx/Deal4Go-convertidor-BCM94360CS2-BCM94360CD-BCM943602CS/dp/B082Y4YPLZ/ref=sr_1_12?keywords=BCM943602&qid=1673330880&sr=8-12](https://www.amazon.com.mx/Timack-BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Hackintosh/dp/B07SN258KJ/ref=sr_1_34?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1ZR6L3413ZDBN&keywords=BCM9436+pcie&qid=1673331133&sprefix=bcm9436+pcie%2Caps%2C94&sr=8-34)
 
 ## PHERIPHERALS
 

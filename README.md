@@ -23,10 +23,9 @@
 
 <img width="392" alt="About This Mac" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png">
 
-# HARDWARE
-
 ![IMG_20230109_233454](https://user-images.githubusercontent.com/8379954/211470702-ce6758c5-b112-49d7-806a-9bdfa8a08892.jpg)
 
+# HARDWARE
 
 Please check [GPU Buyer's Guide](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura

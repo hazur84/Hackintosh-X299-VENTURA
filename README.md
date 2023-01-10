@@ -178,7 +178,7 @@ https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
 # Tools Downloads
 
-1. [OpenCore 0.8.6](https://github.com/acidanthera/OpenCorePkg/releases](https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.6/OpenCore-0.8.6-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
+1. [OpenCore 0.8.6](https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.6/OpenCore-0.8.6-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
 1. [OpenCore Reference Manual 0.8.9](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
 1. [ProperTree](https://github.com/corpnewt/ProperTree) to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data

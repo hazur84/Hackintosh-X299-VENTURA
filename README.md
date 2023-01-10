@@ -117,7 +117,7 @@ You will need to create your own Serial Number and SMUUID. Instructions can be f
 
 Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
 
-# RX6X00 XT (6600; 6800; 6900)
+# RX5X00XT (5500; 5600; 5700) and RX6X00XT (6600; 6800; 6900)
 
 AMD RX 6600 on Ventura with MacPro or iMacPro SMBIOS
 AMD Navi cards run fine on Ventura when using iMac SMBIOS with **agdpmod=pikera** in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.

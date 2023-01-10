@@ -49,8 +49,8 @@ Avoid this hard drives:
 
 Hard drives verified:
 
-1. SN730 Western Digital (R: 3,400 MB/S; W: 2,700 MB/s)
-1. SN750 Western Digital
+1. SN730 Western Digital 1TB (R: 3,400 MB/S; W: 3,100 MB/s)
+1. [SN750](https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS500G3XHC) Western Digital
 1. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
 1. Patriot
 

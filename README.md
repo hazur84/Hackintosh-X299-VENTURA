@@ -101,13 +101,13 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
 
-1. Monte la particion EFI de la USB con [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) 
+1. Mount the partition USB EFI with [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) 
 
-2. Descargue el archivo EFI.zip de este proyecto Github 
+2. Download the file EFI.zip on this Github project.
 
-3. Descomprima en la particion EFI de la USB.
+3. Unzip the file EFI.zip into USB EFI partition.
 
-4. Configure el archivo config.plist 
+4. Setup the file config.plist 
 
 # Configuracion del archivo config.plist
 

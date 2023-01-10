@@ -21,10 +21,9 @@
 1. WebCam Logitech Brio; C92 PRO
 1. TV LG OLED EVO 42 HDMI 2.1 4K@120HZ
 
-<img width="392" alt="Screenshot 2023-01-06 at 11 17 02" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png">
-![IMG_20230109_233454](https://user-images.githubusercontent.com/8379954/211470335-918af802-0556-447e-83a0-6a8425cfffdc.jpg)
+<img width="392" alt="About This Mac" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png">
 
-
+<img width="392" alt="CPU Setup" scr="https://user-images.githubusercontent.com/8379954/211470407-61a02980-b813-4341-b14e-5866d900c77f.jpg">
 
 # HARDWARE
 

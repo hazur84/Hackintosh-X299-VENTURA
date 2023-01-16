@@ -51,8 +51,9 @@ Hard drives verified:
 
 1. [SN730](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) Western Digital 1TB (R: 3,400 MB/S; W: 3,100 MB/s)
 1. [SN750](https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS500G3XHC) Western Digital
-1. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
-1. Patriot
+2. SN850 Western Digital
+3. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
+4. Patriot
 
 WiFi cards supported (avoid all others):
 

@@ -174,7 +174,7 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 # Problems with USB ports
 Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 
-# Prerequisitos y actualizaciones
+# Prerequisites and Open Core upgrades
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
 # Tools Downloads

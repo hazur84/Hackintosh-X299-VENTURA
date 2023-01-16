@@ -100,7 +100,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 # USB pendrive instalation
 
-1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
+1. Check this [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) for create usb boot of instalation.
 
 1. Mount the partition USB EFI with [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) 
 
@@ -110,13 +110,13 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 4. Setup the file config.plist 
 
-# Configuracion del archivo config.plist
+# Setup file config.plist
 
 You will need to create your own Serial Number and SMUUID. Instructions can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/skylake-x.html#platforminfo). Remember to adjust the SMBIOS a iMacPro1,1
 
 <img width="682" alt="Screenshot 2022-12-26 at 17 16 27" src="https://user-images.githubusercontent.com/8379954/209587973-53dde243-87b7-43ab-aec8-29a67f152e95.png">
 
-Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
+Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup hard drive instalation second boot.
 
 # RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900)
 

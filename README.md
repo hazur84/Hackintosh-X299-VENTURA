@@ -204,6 +204,6 @@ Disable Gatekeeper With Terminal
 1. [PEREZ987](https://github.com/perez987/6600XT-on-macOS-12-13-with-PowerPlayTable) framebuffer navicards
 
 # TO DO
-Upgrade code to OPENCORE 8.8 (someone wants to help?)
+Upgrade code to OPENCORE (someone wants to help?)
 
 Review this link [Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)

@@ -1,62 +1,74 @@
-# HACKINTOSH X299 MAC OS VENTURA 13.1 - OPENCORE 0.86 (26/dic/2022)
+# Hackintosh X299 MacOS Ventura 13.6.1 - RX6600XT - OC 0.9.7 (30/dic/2023)
 
-## Setup
+# CHANGELOG:
 
-1. Placa Madre [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
-1. GPU GygaByte RX590 8Gb
-1. SSD M2 1TB WD730SN WESTERN DIGITAL (HACKINTOSH)
-1. SSD M2 1TB WD730SN WESTERN DIGITAL (WINDOWS 11)
-1. CPU Core I9-9920X (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
-1. RAM 64Gb 16Gbx4 @ 3,000 Mhz XPG DDR4
+1. OpenCore 0.9.7 (30/DIC/2023)
+   - VENTURA and SONOMA TEST OK
+   - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
+[OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+1. OpenCore 0.8.6 (07/JAN/2023)
+   - VENTURA TEST OK
+
+## SETUP
+
+1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3701](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
+1. CPU [Intel® Core™ i9-9920X](https://www.intel.com/content/www/us/en/products/sku/189127/intel-core-i99920x-xseries-processor-19-25m-cache-up-to-4-50-ghz/specifications.html) (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
+1. RAM 64Gb 16Gb x4 @ 3,600 Mhz [XPG D60G](https://www.xpg.com/us/xpg/843) DDR4 Quad Channel
+1. GPU [NITRO+ AMD Radeon™ RX 6600 XT](https://www.sapphiretech.com.cn/en/consumer/nitro-radeon-rx-6600-xt-8g-gddr6) 8Gb
+1. PSU [CORSAIR HX650](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/hx-series-config/p/CP-9020030-NA) 650 Watt 80 PLUS® Gold Certified, (change fan Noctua NF-P12)
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (Mac OS 13) Read: 3,400 MB/s ; Write:
+ 3,100 MB/s
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read: 3,400 MB/s ; Write:
+ 3,100 MB/s
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
-1. WiFi card BCM943602 con adaptaor pcie
+1. Cooler Master MasterLiquid [ML280](https://www.amazon.com.mx/gp/product/B08BV2RHZW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+2. Fans Noctua [NF-P14s](https://www.amazon.com.mx/gp/product/B00KF7O58G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 140mm x4; [NF-P12](https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 120mm x1; [NF-A6x25](https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 60 mm x2
+3. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
 
-<img width="392" alt="MacOsVentura" src="https://user-images.githubusercontent.com/8379954/209585330-9cca7e25-83f8-49d4-83cf-e5242acfb1ef.png">
+## PHERIPHERALS
 
-# HARDWARE
+1. Magic Trackpad
+1. Logitech Keyboard MX
+1. Plantronics Diadema USB
+1. WebCam Logitech Brio; C92 PRO
+1. TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ
 
-[Guía de GPU Recomendados](
-https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) con MacOS Ventura
+<img width="325" alt="About This Mac" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png"><img src="https://user-images.githubusercontent.com/8379954/211470702-ce6758c5-b112-49d7-806a-9bdfa8a08892.jpg" alt="CPU Setup" width="685" height="auto">
 
-1. AMD WX 5100; 7100; 9100
-1. AMD RX VEGA 56; 64 
+# HARDWARE FOR OTHERS SIMILAR SETUP X299
+
+Please check [GPU Buyer's Guide](
+https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura
+
+1. AMD WX X100 (4100; 5100; 7100; 9100)
+1. AMD RX VEGA (56; 64) 
 1. AMD RX 5XX (560; 570; 580; 590) 
 1. AMD RX 5X00 XT (5500; 5600; 5700) 
-1. AMD RX 6600; 6600XT 
-1. AMD RX 6800 XT y 6900 XT
+1. AMD RX 6X00 XT (6600; 6800; 6900) this series only support hdmi 2.1 4k@120hz
+1. AMD RX 6X00 XT (6400; 6500; 6650, 6700) this series avoid, not working in macos
 
-Evitar estos discos duros:
+Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
 
-1. Cualquier almacenamiento basado en eMMC.
+1. Anything HDSSD eMMC.
 1. Samsung PM981 y PM991 
 1. Micron 2200S
 1. SKHynix PC711
 1. Samsung 970 Evo Plus
 1. Intel 600p
 
-Discos provados y recomendados:
+Hard drives verified:
 
-1. SN730 Western Digital (R: 3,400 MB/S; W: 2,700 MB/s)
-1. SN750 Western Digital
-1. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
-1. Patriot
+1. [SN730](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) Western Digital 1TB (R: 3,400 MB/S; W: 3,100 MB/s)
+1. [SN750](https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS500G3XHC) Western Digital
+2. SN850 Western Digital
+3. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
+4. Patriot
 
-Modelos de tarjetas WiFi ecomendados (evitar todas las demás):
+WiFi cards supported (avoid all others):
 
-1. BCM943602
-1. BCM94360
-1. BCM94352
-1. BCM94350
+BCM943XXX (BCM94350, BCM94352; BCM94360; BCM943602)
 
-## Perifericos
-
-1. Magic Trackpad ($100 USD)
-1. Logitech Keyboard MX ($100 USD)
-1. Plantronics Diadema USB
-1. WebCam Logitech Brio; C92 PRO ($50 USD)
-1. TV LG OLED EVO 42 ($1000 USD)
-
-# CONFIGURACION DEL BIOS DE LA PLACA MADRE
+# SETUP BIOS MOTHERBOARD
 
 Reset to Default Settings before adjusting to these settings. It is recommended to use one of the more recent BIOS revisions.
 
@@ -94,36 +106,110 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 - Secure Boot
     - OS Type / Other OS
 
-# USB Instalacion
 
-1. Revise este [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) para crear el disco usb de arranque e instalaciòn.
+# USB pendrive instalation
 
-1. Monte la particion EFI de la USB con [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) 
+1. Check this [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) for create usb boot of instalation.
 
-2. Descargue el archivo EFI.zip de este proyecto Github 
+1. Mount the partition USB EFI with [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) 
 
-3. Descomprima en la particion EFI de la USB.
+2. Download the file EFI.zip on this Github project.
 
-# Configuracion del archivo config.plist
+3. Unzip the file EFI.zip into USB EFI partition.
+
+4. Setup the file config.plist 
+
+# Setup file config.plist
 
 You will need to create your own Serial Number and SMUUID. Instructions can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/skylake-x.html#platforminfo). Remember to adjust the SMBIOS a iMacPro1,1
 
 <img width="682" alt="Screenshot 2022-12-26 at 17 16 27" src="https://user-images.githubusercontent.com/8379954/209587973-53dde243-87b7-43ab-aec8-29a67f152e95.png">
 
-1. Reinicie y acceda al bios, coloque la memoria usb como primer boot y el disco duro de instalacion como el segundo boot.
+Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup hard drive instalation second boot.
 
-# Prerequisitos y actualizaciones
+# RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900)
+
+AMD RX 6600 on Ventura with MacPro or iMacPro SMBIOS
+AMD Navi cards run fine on Ventura when using iMac SMBIOS with **agdpmod=pikera** in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
+
+<img width="956" alt="Screenshot 2023-01-06 at 11 57 31" src="https://user-images.githubusercontent.com/8379954/211070820-06f5ce09-feb8-4646-b36f-c474d2e2ec1c.png">
+
+By default, Radeon framebuffer (ATY,Radeon) is loaded. But, in AMDRadeonX6000Framebuffer.kext >> Contents >> Info.plist we can see that AMDRadeonNavi23Controller has ATY,Henbury and 6600 series are Navi 23. This is why this framebuffer is selected.
+
+The patch is added in this way:
+
+<img width="961" alt="Screenshot 2023-01-06 at 11 44 37" src="https://user-images.githubusercontent.com/8379954/211068826-b8cc5216-a3d7-4de2-9ffe-ce89935ac110.png">
+
+```js
+<key>DeviceProperties</key>
+    <dict>
+        <key>Add</key>
+        <dict>
+            <key>PciRoot(0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+            <dict>
+                <key>@0,name</key>
+                <string>ATY,Henbury</string>
+                <key>@1,name</key>
+                <string>ATY,Henbury</string>
+                <key>@2,name</key>
+                <string>ATY,Henbury</string>
+                <key>@3,name</key>
+                <string>ATY,Henbury</string>
+            </dict>
+        </dict>
+        <key>Delete</key>
+        <dict/>
+    </dict>
+```
+
+Notes:
+
+PCI path to the GPU may be the same on your system but it is convenient to check it with [Hackintool](https://github.com/benbaker76/Hackintool)
+
+<img width="1821" alt="Screenshot 2023-01-06 at 11 08 05" src="https://user-images.githubusercontent.com/8379954/211068020-e24e546e-e7f7-48bb-a236-47b55334f85b.png">
+
+If needed for other Navi cards, the framebuffers to be loaded are different for each family:
+
+|GPU  |value       |
+|-----|------------|   
+|5500	|ATY,Python  |
+|5600 |ATY,Sunbeam |
+|5700	|ATY,Adder   |  
+|6600	|ATY,Henbury |
+|6800	|ATY,Belknap |
+|6900	|ATY,Carswell|
+
+
+# Problems with USB ports
+Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
+
+# Prerequisites and Open Core upgrades
 https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
-# Descargas principales
+# Tools Downloads
 
-1. [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases)
-1. ProperTree to edit .plist files 
+1. [OpenCore 0.8.6](https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.6/OpenCore-0.8.6-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
+1. [OpenCore Reference Manual 0.8.9](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
+1. [ProperTree](https://github.com/corpnewt/ProperTree) to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data
-2. Mount EFI to mount EFI partitions 
-3. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files 
+1. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions and edit config.plist
+1. [Mount EFI](https://github.com/corpnewt/MountEFI) Mount EFI terminal
+1. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files
+1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
 
-#CREDITS
+# OTHERS
 
-SHINOKI77
-https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI
+Disable Gatekeeper With Terminal
+1. Launch Terminal from Applications > Utilities.
+2. Enter the following command: sudo spctl --master-disable
+
+# CREDITS
+
+1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
+1. [Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)
+1. [PEREZ987](https://github.com/perez987/6600XT-on-macOS-12-13-with-PowerPlayTable) framebuffer navicards
+
+# TO DO
+Upgrade code to OPENCORE (someone wants to help?)
+
+Review this link [Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)

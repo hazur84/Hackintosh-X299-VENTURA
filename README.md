@@ -1,4 +1,4 @@
-# Hackintosh X299 MacOS Ventura 13.1 - RX6600XT - OC 0.97 (30/dic/2023)
+# Hackintosh X299 MacOS Ventura 13.6.1 - RX6600XT - OC 0.97 (30/dic/2023)
 Uggrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 

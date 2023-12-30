@@ -1,6 +1,7 @@
 # Hackintosh X299 MacOS Ventura 13.6.1 - RX6600XT - OC 0.9.7 (30/dic/2023)
 
 # CHANGELOG:
+
 1. OpenCore 0.9.7 (30/DIC/2023)
 - VENTURA and SONOMA TEST OK
 - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)

@@ -3,12 +3,11 @@
 # CHANGELOG:
 
 1. OpenCore 0.9.7 (30/DIC/2023)
-- VENTURA and SONOMA TEST OK
-- Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
+ - VENTURA and SONOMA TEST OK
+ - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
-
 1. OpenCore 0.8.6 (07/JAN/2023)
-- VENTURA TEST OK
+ - VENTURA TEST OK
 
 ## SETUP
 

@@ -28,7 +28,9 @@ Los modelos iMacPro1,1 y MacPro7,1 reciben notificaciones de actualización si s
 
 Una vez actualizado el sistema, se pueden deshabilitar RestrictEvents.kext y el argumento de arranque porque no son necesarios para el funcionamiento habitual de Sonoma.
 
-CREDITS: [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
+CREDITS: 
+1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
+2. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
 
 
 ## SETUP

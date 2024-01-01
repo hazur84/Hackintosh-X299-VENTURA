@@ -14,13 +14,26 @@
 ## What's not working?
 Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. A fix is proposed later.
 
-Hay usuarios que, para que la actualización tenga éxito, han de ajustar 2 parámetros en config.plist relacionados con la seguridad (en mi caso no parecen ser necesarias):
+## Installing macOS Sonoma
+I have updated macOS Ventura to Sonoma but creating USB boot media to install from scratch is another option for those who prefer to do it that way.
 
-SecureBootModel=Default o x86legacy (Apple Secure Boot como Default establece el mismo modelo que en SMBIOS y x86legacy está diseñado para SMBIOS que carecen de chip T2 y máquinas virtuales)
-SIP habilitado (csr-active-config=00000000).
-Además es conveniente tener Gatekeeper habilitado (sudo spctl –master-enable en Terminal).
+It is advisable to have macOS 13.4 Ventura or later
+System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled
+Choose macOS Sonoma 14.0
+Or get the app from App Store.
 
-Estas opciones de seguridad se pueden cambiar después de la instalación ya que no son necesarias para que Sonoma funcione.
+So you can install Sonoma from scratch, To create the USB installation media.
+
+## OpenCore and EFI folder
+Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least version 0.9.4. Settings used with macOS Ventura may work with macOS Sonoma. Updating OpenCore and kexts, there are no significant changes to the config.plist file, which may be the same for both systems.
+
+For the update to be successful, 2 parameters in config.plist related to security must be adjusted:
+
+SecureBootModel=Default or x86legacy (Apple Secure Boot as Default sets the same model as in SMBIOS and x86legacy is designed for SMBIOS that lack T2 chip and virtual machines)
+SIP enabled (csr-active-config=00000000.
+It is advisable to have Gatekeeper enabled (sudo spctl –master-enable in Terminal). Note: in last versions of Ventura, sudo spctl –master-enable (or disable) has been replaced by sudo spctl –global-enable (or disable). For now, both commands work fine.
+
+These security options can be changed after installation as they are not required out of updating macOS.
 
 Nota: en las versiones más recientes de Ventura, sudo spctl –master-enable (o disable) ha sido reemplazado por sudo spctl –global-enable (o disable).
 

@@ -23,7 +23,7 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
    - Or get the app from App Store.
 
 2. Install from scratch:
-   - Creating USB boot media to install from scratch ( [USB pendrive instalation](/#usb-pendrive-instalation/) section ).
+   - Creating USB boot media to install from scratch ( [USB pendrive instalation](#usb-pendrive-instalation) section ).
    - Reboot from the USB device and begin Sonoma installation.
 
 ## OpenCore and EFI folder

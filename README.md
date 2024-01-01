@@ -17,9 +17,10 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
 ## Installing macOS Sonoma
 I have updated macOS Ventura to Sonoma but creating USB boot media to install from scratch is another option for those who prefer to do it that way.
 
-It is advisable to have macOS 13.4 Ventura or later.
-System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled.
-Choose macOS Sonoma 14.0.
+It is advisable to have macOS 13.4 Ventura or later
+ - System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled
+ - Choose macOS Sonoma 14.0
+
 Or get the app from App Store.
 
 So you can install Sonoma from scratch, To create the USB installation media.

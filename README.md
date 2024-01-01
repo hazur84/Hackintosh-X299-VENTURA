@@ -30,7 +30,8 @@ Una vez actualizado el sistema, se pueden deshabilitar RestrictEvents.kext y el 
 
 CREDITS: 
 1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
-2. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
+2. [PEREZ987 GITHUB](https://github.com/perez987/macOS-14-Sonoma-on-z390-with-OpenCore)
+4. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
 
 
 ## SETUP

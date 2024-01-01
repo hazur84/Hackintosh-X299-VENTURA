@@ -16,15 +16,15 @@
 Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. The only option to fix is using OCLP patch.
 
 ## Installing macOS Sonoma
-I have updated macOS Ventura to Sonoma but creating USB boot media to install from scratch is another option for those who prefer to do it that way.
 
-It is advisable to have macOS 13.4 Ventura or later
+1. Upgrade from macOS Ventura 13.4 or later:
  - System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled
  - Choose macOS Sonoma 14.0
+ - Or get the app from App Store.
 
-Or get the app from App Store.
-
-So you can install Sonoma from scratch, To create the USB installation media.
+2. Install from scratch:
+ - Creating USB boot media to install from scratch.
+ - Reboot from the USB device and begin Sonoma installation.
 
 ## OpenCore and EFI folder
 Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least version 0.9.4. Settings used with macOS Ventura may work with macOS Sonoma. Updating OpenCore and kexts, there are no significant changes to the config.plist file, which may be the same for both systems.

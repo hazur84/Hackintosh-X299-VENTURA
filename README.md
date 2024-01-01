@@ -39,18 +39,14 @@ These security options can be changed after installation as they are not require
 
 ## Notes about software updates
 
-There are 3 SMBIOS that I can use on my PC: iMac19,1 / iMacPro1,1 / MacPro7,1. My favorite is iMac19.1. Regarding the updates that are notified in Software Update and the size of the update (full or incremental package), there are some conditions to take into account.
-
 1. Getting Update notification
- - iMacPro1,1 (iMac Pro 27″, late 2017) and MacPro7,1 (Mac Pro 2019) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
- - iMacPro1,1 and MacPro7,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
+ - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
+ - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
 
 2. Size of the update (full or incremental)
  - Systems where the OCLP root patch has not been applied or has been reverted:
- - iMacPro1,1 and MacPro7,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
+ - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
  - All systems that have the OCLP root patch applied receive full-size updates.
-
-In summary, using iMac19.1 without RestrictEvents.kext I get update notifications but the updates are full-size.
 
 After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal Sonoma operation.
 

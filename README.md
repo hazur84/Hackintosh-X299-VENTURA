@@ -3,11 +3,33 @@
 # CHANGELOG:
 
 1. OpenCore 0.9.7 (30/DIC/2023)
-   - VENTURA and SONOMA TEST OK
+   - VENTURA TEST OK
    - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 1. OpenCore 0.8.6 (07/JAN/2023)
    - VENTURA TEST OK
+
+# MAC OS SONOMA INSTALATION
+
+Wifi Fenvi T919: macOS Sonoma ha eliminado la compatibilidad con todas las wifi Broadcom presentes en los Mac anteriores a 2017. Fenvi T919 y HB1200 llevan chipset BCM4360 (no soportado) por lo que la wifi no funciona en Sonoma. La parte de Bluetooth funciona bien. Esto supone un grave inconveniente porque se pierden también las funciones relacionadas con el ecosistema Apple (Airdrop, Cámara de Continuidad, etc.). Más adelante se propone una solución.
+
+Hay usuarios que, para que la actualización tenga éxito, han de ajustar 2 parámetros en config.plist relacionados con la seguridad (en mi caso no parecen ser necesarias):
+
+SecureBootModel=Default o x86legacy (Apple Secure Boot como Default establece el mismo modelo que en SMBIOS y x86legacy está diseñado para SMBIOS que carecen de chip T2 y máquinas virtuales)
+SIP habilitado (csr-active-config=00000000).
+Además es conveniente tener Gatekeeper habilitado (sudo spctl –master-enable en Terminal).
+
+Estas opciones de seguridad se pueden cambiar después de la instalación ya que no son necesarias para que Sonoma funcione.
+
+Nota: en las versiones más recientes de Ventura, sudo spctl –master-enable (o disable) ha sido reemplazado por sudo spctl –global-enable (o disable).
+
+Los modelos iMacPro1,1 (iMac Pro 27″, finales de 2017) y MacPro7,1 (Mac Pro de 2019) sí tienen chip T2 y, al utilizar estos modelos de SMBIOS, no se reciben notificaciones de actualización
+Los modelos iMacPro1,1 y MacPro7,1 reciben notificaciones de actualización si se configuran con ajuste vmm (máquina virtual): revpatch=sbvmm en boot-args junto con RestrictEvents.kext.
+
+Una vez actualizado el sistema, se pueden deshabilitar RestrictEvents.kext y el argumento de arranque porque no son necesarios para el funcionamiento habitual de Sonoma.
+
+CREDITS: [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
+
 
 ## SETUP
 

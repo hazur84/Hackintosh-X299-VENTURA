@@ -18,13 +18,13 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
 ## Installing macOS Sonoma
 
 1. Upgrade from macOS Ventura 13.4 or later:
- - System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled
- - Choose macOS Sonoma 14.0
- - Or get the app from App Store.
+   - System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled
+   - Choose macOS Sonoma 14.0
+   - Or get the app from App Store.
 
 2. Install from scratch:
- - Creating USB boot media to install from scratch.
- - Reboot from the USB device and begin Sonoma installation.
+   - Creating USB boot media to install from scratch.
+   - Reboot from the USB device and begin Sonoma installation.
 
 ## OpenCore and EFI folder
 Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least version 0.9.4. Settings used with macOS Ventura may work with macOS Sonoma. Updating OpenCore and kexts, there are no significant changes to the config.plist file, which may be the same for both systems.
@@ -41,13 +41,13 @@ These security options can be changed after installation as they are not require
 ## Notes about software updates
 
 1. Getting Update notification
- - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
- - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
+   - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
+   - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
 
 2. Size of the update (full or incremental)
- - Systems where the OCLP root patch has not been applied or has been reverted:
- - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
- - All systems that have the OCLP root patch applied receive full-size updates.
+   - Systems where the OCLP root patch has not been applied or has been reverted:
+   - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
+   - All systems that have the OCLP root patch applied receive full-size updates.
 
 After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal Sonoma operation.
 

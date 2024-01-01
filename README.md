@@ -30,18 +30,29 @@ Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least vers
 
 For the update to be successful, 2 parameters in config.plist related to security must be adjusted:
 
-SecureBootModel=Default or x86legacy (Apple Secure Boot as Default sets the same model as in SMBIOS and x86legacy is designed for SMBIOS that lack T2 chip and virtual machines)
-SIP enabled (csr-active-config=00000000.
+ - SecureBootModel=Default or x86legacy (Apple Secure Boot as Default sets the same model as in SMBIOS and x86legacy is designed for SMBIOS that lack T2 chip and virtual machines)
+ - SIP enabled (csr-active-config=00000000.
+
 It is advisable to have Gatekeeper enabled (sudo spctl –master-enable in Terminal). Note: in last versions of Ventura, sudo spctl –master-enable (or disable) has been replaced by sudo spctl –global-enable (or disable). For now, both commands work fine.
 
 These security options can be changed after installation as they are not required out of updating macOS.
 
-Nota: en las versiones más recientes de Ventura, sudo spctl –master-enable (o disable) ha sido reemplazado por sudo spctl –global-enable (o disable).
+## Notes about software updates
 
-Los modelos iMacPro1,1 (iMac Pro 27″, finales de 2017) y MacPro7,1 (Mac Pro de 2019) sí tienen chip T2 y, al utilizar estos modelos de SMBIOS, no se reciben notificaciones de actualización
-Los modelos iMacPro1,1 y MacPro7,1 reciben notificaciones de actualización si se configuran con ajuste vmm (máquina virtual): revpatch=sbvmm en boot-args junto con RestrictEvents.kext.
+There are 3 SMBIOS that I can use on my PC: iMac19,1 / iMacPro1,1 / MacPro7,1. My favorite is iMac19.1. Regarding the updates that are notified in Software Update and the size of the update (full or incremental package), there are some conditions to take into account.
 
-Una vez actualizado el sistema, se pueden deshabilitar RestrictEvents.kext y el argumento de arranque porque no son necesarios para el funcionamiento habitual de Sonoma.
+1. Getting Update notification
+ - iMacPro1,1 (iMac Pro 27″, late 2017) and MacPro7,1 (Mac Pro 2019) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
+ - iMacPro1,1 and MacPro7,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
+
+2. Size of the update (full or incremental)
+ - Systems where the OCLP root patch has not been applied or has been reverted:
+ - iMacPro1,1 and MacPro7,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
+ - All systems that have the OCLP root patch applied receive full-size updates.
+
+In summary, using iMac19.1 without RestrictEvents.kext I get update notifications but the updates are full-size.
+
+After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal Sonoma operation.
 
 CREDITS: 
 1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)

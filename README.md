@@ -11,7 +11,8 @@
 
 # MAC OS SONOMA INSTALATION
 
-Wifi Fenvi T919: macOS Sonoma ha eliminado la compatibilidad con todas las wifi Broadcom presentes en los Mac anteriores a 2017. Fenvi T919 y HB1200 llevan chipset BCM4360 (no soportado) por lo que la wifi no funciona en Sonoma. La parte de Bluetooth funciona bien. Esto supone un grave inconveniente porque se pierden también las funciones relacionadas con el ecosistema Apple (Airdrop, Cámara de Continuidad, etc.). Más adelante se propone una solución.
+What's not working?
+Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. A fix is proposed later.
 
 Hay usuarios que, para que la actualización tenga éxito, han de ajustar 2 parámetros en config.plist relacionados con la seguridad (en mi caso no parecen ser necesarias):
 

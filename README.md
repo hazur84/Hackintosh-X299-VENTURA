@@ -82,12 +82,9 @@ CREDITS:
 1. WebCam Logitech Brio; C92 PRO
 1. TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ
 
-<img width="325" alt="About This Mac" src="https://user-images.githubusercontent.com/8379954/211067909-fc0445ea-d5e6-4300-a1f5-0a9fdd72c5fc.png](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/4d8e11e4-2ae1-4d42-a0e9-6b5adce36b9d">
-
 ![About This Mac](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/4d8e11e4-2ae1-4d42-a0e9-6b5adce36b9d)
 
-<img src="https://user-images.githubusercontent.com/8379954/211470702-ce6758c5-b112-49d7-806a-9bdfa8a08892.jpg" alt="CPU Setup" width="685" height="auto">
-
+![WhatsApp Image 2024-01-02 at 12 48 59](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/2e72378f-933a-4944-9ba3-fcf33e039ca6)
 
 # HARDWARE FOR OTHERS SIMILAR SETUP X299
 

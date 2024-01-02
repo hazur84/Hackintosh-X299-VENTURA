@@ -1,10 +1,10 @@
-# Hackintosh X299 MacOS Ventura 13.6.1 - RX6600XT - OC 0.9.7 (30/dic/2023)
+# Hackintosh X299 MacOS Sonoma 14.2.1 - RX6600XT - OC 0.9.7 (02/january/2024)
 
 # CHANGELOG:
 
 1. OpenCore 0.9.7 (30/DIC/2023)
-   - MacOS Ventura test OK
-   - MacOs Sonoma test OK
+   - MacOS Ventura 13.6.1 test OK
+   - MacOs Sonoma test 14.2.1 OK
    - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 1. OpenCore 0.8.6 (07/JAN/2023)

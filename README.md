@@ -65,7 +65,7 @@ CREDITS:
 1. RAM 64Gb 16Gb x4 @ 3,600 Mhz [XPG D60G](https://www.xpg.com/us/xpg/843) DDR4 Quad Channel
 1. GPU [NITRO+ AMD Radeon™ RX 6600 XT](https://www.sapphiretech.com.cn/en/consumer/nitro-radeon-rx-6600-xt-8g-gddr6) 8Gb
 1. PSU [CORSAIR HX650](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/hx-series-config/p/CP-9020030-NA) 650 Watt 80 PLUS® Gold Certified, (change fan Noctua NF-P12)
-1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (Mac OS 13) Read: 3,400 MB/s ; Write:
+1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (Mac OS 14) Read: 3,400 MB/s ; Write:
  3,100 MB/s
 1. SSD M2 1TB [730SN](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#SDBPNTY-512G) WESTERN DIGITAL (WINDOWS 11) Read: 3,400 MB/s ; Write:
  3,100 MB/s

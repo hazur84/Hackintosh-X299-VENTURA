@@ -236,12 +236,13 @@ https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 
 # Tools Downloads
 
-1. [OpenCore 0.8.6](https://github.com/acidanthera/OpenCorePkg/releases/download/0.8.6/OpenCore-0.8.6-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
-1. [OpenCore Reference Manual 0.8.9](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
+1. [OpenCore 0.9.7]([https://github.com/acidanthera/OpenCorePkg/](https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.7/OpenCore-0.9.7-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
+1. [OpenCore Reference Manual 0.9.7] (https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
 1. [ProperTree](https://github.com/corpnewt/ProperTree) to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data
 1. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions and edit config.plist
 1. [Mount EFI](https://github.com/corpnewt/MountEFI) Mount EFI terminal
+2. [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 1. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files
 1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
 

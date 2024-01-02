@@ -172,8 +172,6 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 You will need to create your own Serial Number and SMUUID. Instructions can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/skylake-x.html#platforminfo). Remember to adjust the SMBIOS a iMacPro1,1
 
-![About This Mac](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/4d8e11e4-2ae1-4d42-a0e9-6b5adce36b9d)
-
 <img width="682" alt="Screenshot 2022-12-26 at 17 16 27" src="https://user-images.githubusercontent.com/8379954/209587973-53dde243-87b7-43ab-aec8-29a67f152e95.png">
 
 Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup hard drive instalation second boot.

@@ -69,11 +69,13 @@ CREDITS:
 1. SSD M2 1TB [KXG60ZNV1T02](https://americas.kioxia.com/es-lar/business/ssd/client-ssd/xg6.html) KIOXA (WINDOWS 11) Read: 3,180 MB/s ; Write: 2,960 MB/s
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
 1. Cooler Master MasterLiquid [ML280](https://www.amazon.com.mx/gp/product/B08BV2RHZW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) (change fan Noctua NF-P14s)
-2. Fans Noctua 1400mm x3 [NF-P14s](https://www.amazon.com.mx/gp/product/B00KF7O58G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-3. Fans Noctua 120mm x3 [NF-P12](https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-4. Fans Noctua 60mm x2 [NF-A6x25](https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-5. Fans Noctua 92mm x1 [NF-B9](https://www.amazon.com.mx/Noctua-NF-B9-redux-1600-PWM-Ventilador/dp/B00KF7S9F6/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3158ITVJGOVPM&keywords=noctua+92mm&sprefix=noctua+92mm%2Caps%2C163&sr=8-3&ufe=app_do%3Aamzn1.fos.4e545b5e-1d45-498b-8193-a253464ffa47) 
-6. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
+2. Cooler Master MaserLiquid [ML240]
+3. NZXT G12
+4. Fans Noctua 1400mm x3 [NF-P14s](https://www.amazon.com.mx/gp/product/B00KF7O58G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+5. Fans Noctua 120mm x3 [NF-P12](https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+6. Fans Noctua 60mm x2 [NF-A6x25](https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+7. Fans Noctua 92mm x1 [NF-B9](https://www.amazon.com.mx/Noctua-NF-B9-redux-1600-PWM-Ventilador/dp/B00KF7S9F6/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3158ITVJGOVPM&keywords=noctua+92mm&sprefix=noctua+92mm%2Caps%2C163&sr=8-3&ufe=app_do%3Aamzn1.fos.4e545b5e-1d45-498b-8193-a253464ffa47) 
+8. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
 
 ## PHERIPHERALS
 
@@ -110,10 +112,8 @@ Avoid this hard drives, please review this [link](https://elitemacx86.com/thread
 
 Hard drives verified:
 
-1. [SN730](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) Western Digital 1TB (R: 3,400 MB/S; W: 3,100 MB/s)
-1. [SN750](https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS500G3XHC) Western Digital
-2. SN850 Western Digital
-3. Kioxa / Toshiba KXG6AZNV (R: 3,100 MB/S; W: 2,800 MB/s)
+1. Western Digital [SNXXX](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) 
+1. Kioxa / Toshiba [KXG60ZNVXXXX](https://americas.kioxia.com/es-lar/business/ssd/client-ssd/xg6.html)
 4. Patriot
 
 WiFi cards supported (avoid all others):

@@ -64,13 +64,16 @@ CREDITS:
 1. CPU [Intel® Core™ i9-9920X](https://www.intel.com/content/www/us/en/products/sku/189127/intel-core-i99920x-xseries-processor-19-25m-cache-up-to-4-50-ghz/specifications.html) (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
 1. RAM 64Gb 16Gb x4 @ 3,600 Mhz [XPG D60G](https://www.xpg.com/us/xpg/843) DDR4 Quad Channel
 1. GPU [NITRO+ AMD Radeon™ RX 6600 XT](https://www.sapphiretech.com.cn/en/consumer/nitro-radeon-rx-6600-xt-8g-gddr6) 8Gb
-1. PSU [CORSAIR HX650](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/hx-series-config/p/CP-9020030-NA) 650 Watt 80 PLUS® Gold Certified, (change fan Noctua NF-P12)
+1. PSU [CORSAIR HX650](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/hx-series-config/p/CP-9020030-NA) 650 Watt 80 PLUS® Gold Certified, (change fan Noctua NF-P14s)
 1. SSD M2 2TB [SN350](https://www.westerndigital.com/es-la/products/internal-drives/wd-green-sn350-nvme-ssd?sku=WDS200T3G0C) WESTERN DIGITAL (Mac OS 14) Read: 3200MB/s ; Write: 3000MB/s
 1. SSD M2 1TB [KXG60ZNV1T02](https://americas.kioxia.com/es-lar/business/ssd/client-ssd/xg6.html) KIOXA (WINDOWS 11) Read: 3,180 MB/s ; Write: 2,960 MB/s
 1. Case Cooler Master [MASTERBOX Q500L](https://www.coolermaster.com/la/es-la/catalog/cases/mid-tower/masterbox-q500l/)
-1. Cooler Master MasterLiquid [ML280](https://www.amazon.com.mx/gp/product/B08BV2RHZW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
-2. Fans Noctua [NF-P14s](https://www.amazon.com.mx/gp/product/B00KF7O58G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 140mm x4; [NF-P12](https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 120mm x1; [NF-A6x25](https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) 60 mm x2
-3. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
+1. Cooler Master MasterLiquid [ML280](https://www.amazon.com.mx/gp/product/B08BV2RHZW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) (change fan Noctua NF-P14s)
+2. Fans Noctua 1400mm x3 [NF-P14s](https://www.amazon.com.mx/gp/product/B00KF7O58G/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+3. Fans Noctua 120mm x3 [NF-P12](https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+4. Fans Noctua 60mm x2 [NF-A6x25](https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+5. Fans Noctua 92mm x1 [NF-B9](https://www.amazon.com.mx/Noctua-NF-B9-redux-1600-PWM-Ventilador/dp/B00KF7S9F6/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3158ITVJGOVPM&keywords=noctua+92mm&sprefix=noctua+92mm%2Caps%2C163&sr=8-3&ufe=app_do%3Aamzn1.fos.4e545b5e-1d45-498b-8193-a253464ffa47) 
+6. WiFi card [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3)
 
 ## PHERIPHERALS
 

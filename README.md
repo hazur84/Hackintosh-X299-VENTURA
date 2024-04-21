@@ -1,7 +1,8 @@
-# Hackintosh X299 MacOS Sonoma 14.2.1 - RX6600XT - OC 0.9.7 (02/january/2024)
+# Hackintosh X299 MacOS Sonoma 14.4.1 - RX6600XT - OC 0.9.9 (21/april/2024)
 
 # CHANGELOG:
-
+1. OperCore 0.9.9 (21/april/2024)
+   - MacOs Sonoma test 14.4.1 OK
 1. OpenCore 0.9.7 (30/DIC/2023)
    - MacOS Ventura 13.6.1 test OK
    - MacOs Sonoma test 14.2.1 OK

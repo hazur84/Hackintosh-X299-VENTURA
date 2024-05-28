@@ -1,6 +1,9 @@
-# Hackintosh X299 MacOS Sonoma 14.4.1 - RX6600XT - OC 0.9.9 (21/april/2024)
+# Hackintosh X299 MacOS Sonoma 14.5 - RX6600XT - OC 1.0 (28/may/2024)
 
 # CHANGELOG:
+1. OpenCore 1.0 (28/may/2024)
+   - MacOs Sonoma test 14.5 OK
+   - Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/)
 1. OperCore 0.9.9 (21/april/2024)
    - MacOs Sonoma test 14.4.1 OK
 1. OpenCore 0.9.7 (30/DIC/2023)
@@ -57,6 +60,9 @@ CREDITS:
 1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
 2. [PEREZ987 GITHUB](https://github.com/perez987/macOS-14-Sonoma-on-z390-with-OpenCore)
 4. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
+5. [CPU INFO MODEL](https://github.com/acidanthera/RestrictEvents)
+6. [Learn OCAuxiliaryTools](https://github.com/5T33Z0/OC-Little-Translated)
+7. [Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
 
 
 ## SETUP

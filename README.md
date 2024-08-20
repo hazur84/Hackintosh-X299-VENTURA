@@ -34,7 +34,7 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
    - Reboot from the USB device and begin Sonoma installation.
 
 ## OpenCore and EFI folder
-Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least version 0.9.4. Settings used with macOS Ventura may work with macOS Sonoma. Updating OpenCore and kexts, there are no significant changes to the config.plist file, which may be the same for both systems.
+Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least version 1.0.1 Settings used with macOS Ventura may work with macOS Sonoma. Updating OpenCore and kexts, there are no significant changes to the config.plist file, which may be the same for both systems.
 
 For the update to be successful, 2 parameters in config.plist related to security must be adjusted:
 

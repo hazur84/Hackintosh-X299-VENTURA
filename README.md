@@ -4,7 +4,7 @@
 
 # CHANGELOG:
 1. OpenCore 1.0.1 (20/ago/2024)
-   - MacOs Sonoma test 14.6.1 (Require Disable SecureBootModel and disable SIP before install updates)
+   - MacOs Sonoma test 14.6.1 OK (Require Disable SecureBootModel and disable SIP before install updates)
 1. OpenCore 1.0 (28/may/2024)
    - MacOs Sonoma test 14.5 OK
    - Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/)

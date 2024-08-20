@@ -1,5 +1,7 @@
 # Hackintosh X299 MacOS Sonoma 14.6.1 - RX6600XT - OC 1.0.1 (20/ago/2024)
 
+![Screenshot 2024-08-20 at 17 55 58](https://github.com/user-attachments/assets/b92cc91a-a0cc-41c9-979a-32befd6cb0ba)
+
 # CHANGELOG:
 1. OpenCore 1.0.1 (20/ago/2024)
    - MacOs Sonoma test 14.6.1 (Require Disable SecureBootModel and disable SIP before install updates)

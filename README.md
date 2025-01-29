@@ -1,6 +1,7 @@
 # Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3 (29/jan/2025)
 
-![Screenshot 2024-08-20 at 17 55 58](https://github.com/user-attachments/assets/b92cc91a-a0cc-41c9-979a-32befd6cb0ba)
+
+![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)
 
 # UPDATES or UPGRADES:
 1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 

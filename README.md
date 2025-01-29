@@ -25,7 +25,7 @@
    - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
    - All systems that have the OCLP root patch applied receive full-size updates.
 
-After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal Sonoma operation.
+After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal operation.
 
 # CHANGELOG:
 1. OpenCore 1.0.3 (29/jan/2025)
@@ -47,19 +47,12 @@ After the system is updated, RestrictEvents.kext and the boot argument can be di
    - MacOS Ventura test OK
    - Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
 
-# MAC OS SONOMA INSTALATION
+# MacOS instalation Ventura or higher:
 
 ## What's not working?
 Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. The only option to fix is using OCLP patch.
 
-## Installing macOS Sonoma
-
-1. Upgrade from macOS Ventura 13.4 or later:
-   - System Settings >> Software Update >> Beta Updates >> click on the info icon >> Disabled
-   - Choose macOS Sonoma 14.0
-   - Or get the app from App Store.
-
-2. Install from scratch:
+## Installing macOS from scratch:
    - Creating USB boot media to install from scratch ( [USB pendrive instalation](#usb-pendrive-instalation) section ).
    - Reboot from the USB device and begin Sonoma installation.
 
@@ -107,14 +100,14 @@ CREDITS:
 # HARDWARE FOR OTHERS SIMILAR SETUP X299
 
 Please check [GPU Buyer's Guide](
-https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura
+https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura or higher
 
 1. AMD WX X100 (4100; 5100; 7100; 9100)
 1. AMD RX VEGA (56; 64) 
 1. AMD RX 5XX (560; 570; 580; 590) 
 1. AMD RX 5X00 XT (5500; 5600; 5700) 
 1. AMD RX 6X00 XT (6600; 6800; 6900) this series only support hdmi 2.1 4k@120hz
-1. AMD RX 6X00 XT (6400; 6500; 6650, 6700) this series avoid, not working in macos
+1. AMD RX 6X00 XT (6400; 6500; 6650, 6700) this series avoid, not working in macos out the box.
 
 Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
 
@@ -196,8 +189,8 @@ Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup
 
 # RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900)
 
-AMD RX 6600 on Ventura with MacPro or iMacPro SMBIOS
-AMD Navi cards run fine on Ventura when using iMac SMBIOS with **agdpmod=pikera** in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
+AMD RX 5X00 or 6X00 on Ventura or higher with iMacPro1,1 SMBIOS
+AMD Navi cards run fine on Ventura or higher when using iMac SMBIOS with **agdpmod=pikera** in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
 
 <img width="956" alt="Screenshot 2023-01-06 at 11 57 31" src="https://user-images.githubusercontent.com/8379954/211070820-06f5ce09-feb8-4646-b36f-c474d2e2ec1c.png">
 

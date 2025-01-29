@@ -3,12 +3,28 @@
 ![Screenshot 2024-08-20 at 17 55 58](https://github.com/user-attachments/assets/b92cc91a-a0cc-41c9-979a-32befd6cb0ba)
 
 # UPDATES or UPGRADES:
-1. Change SecureBootModel to Disaable value. 
+1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
+2. Change SecureBootModel to Disaable value. 
 1. Change csr-active-config to 03080000 to  disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP.
+2. Change GateKeeper in terminal write: sudo spctl –global-disable (last versions of Ventura).
 
 After successfull update or upgrade you can revert values.
 1. Change SecureBootModel to Default value.
 2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
+3. Chanque GateKeeper in terminal write: sudo spctl –global-enable (last versions of Ventura).
+
+## Notes about software updates
+
+1. Getting Update notification
+   - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
+   - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
+
+2. Size of the update (full or incremental)
+   - Systems where the OCLP root patch has not been applied or has been reverted:
+   - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
+   - All systems that have the OCLP root patch applied receive full-size updates.
+
+After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal Sonoma operation.
 
 # CHANGELOG:
 1. OpenCore 1.0.3 (29/jan/2025)
@@ -45,31 +61,6 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
 2. Install from scratch:
    - Creating USB boot media to install from scratch ( [USB pendrive instalation](#usb-pendrive-instalation) section ).
    - Reboot from the USB device and begin Sonoma installation.
-
-## OpenCore and EFI folder
-Update OpenCore and kexts to Sonoma compatible versions. OpenCore, at least version 1.0.1 Settings used with macOS Ventura may work with macOS Sonoma. Updating OpenCore and kexts, there are no significant changes to the config.plist file, which may be the same for both systems.
-
-For the update to be successful, 2 parameters in config.plist related to security must be adjusted:
-
- - SecureBootModel=Default or x86legacy (Apple Secure Boot as Default sets the same model as in SMBIOS and x86legacy is designed for SMBIOS that lack T2 chip and virtual machines)
- - SIP enabled (csr-active-config=00000000.
-
-It is advisable to have Gatekeeper enabled (sudo spctl –master-enable in Terminal). Note: in last versions of Ventura, sudo spctl –master-enable (or disable) has been replaced by sudo spctl –global-enable (or disable). For now, both commands work fine.
-
-These security options can be changed after installation as they are not required out of updating macOS.
-
-## Notes about software updates
-
-1. Getting Update notification
-   - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
-   - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
-
-2. Size of the update (full or incremental)
-   - Systems where the OCLP root patch has not been applied or has been reverted:
-   - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
-   - All systems that have the OCLP root patch applied receive full-size updates.
-
-After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal Sonoma operation.
 
 CREDITS: 
 1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)

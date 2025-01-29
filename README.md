@@ -253,11 +253,11 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 
 # CREDITS
 
-1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
+1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) Asus X299 setup base-EFI
 1. [Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)
 1. [PEREZ987](https://github.com/perez987/6600XT-on-macOS-12-13-with-PowerPlayTable) framebuffer navicards
-1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
-2. [PEREZ987 GITHUB](https://github.com/perez987/macOS-14-Sonoma-on-z390-with-OpenCore)
+1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/) SONOMA setup
+2. [PEREZ987 GITHUB](https://github.com/perez987/macOS-14-Sonoma-on-z390-with-OpenCore) SONOMA setup
 4. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
 5. [CPU INFO MODEL](https://github.com/acidanthera/RestrictEvents)
 6. [Learn OCAuxiliaryTools](https://github.com/5T33Z0/OC-Little-Translated)

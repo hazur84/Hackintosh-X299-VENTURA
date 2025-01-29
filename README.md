@@ -59,15 +59,6 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
    - Creating USB boot media to install from scratch ( [USB pendrive instalation](#usb-pendrive-instalation) section ).
    - Reboot from the USB device and begin Sonoma installation.
 
-CREDITS: 
-1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
-2. [PEREZ987 GITHUB](https://github.com/perez987/macOS-14-Sonoma-on-z390-with-OpenCore)
-4. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
-5. [CPU INFO MODEL](https://github.com/acidanthera/RestrictEvents)
-6. [Learn OCAuxiliaryTools](https://github.com/5T33Z0/OC-Little-Translated)
-7. [Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
-
-
 ## SETUP
 
 1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3801] (https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
@@ -265,6 +256,12 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
 1. [Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)
 1. [PEREZ987](https://github.com/perez987/6600XT-on-macOS-12-13-with-PowerPlayTable) framebuffer navicards
+1. [PEREZ987](https://perez987.es/macos-14-sonoma-en-z390-aorus-elite/)
+2. [PEREZ987 GITHUB](https://github.com/perez987/macOS-14-Sonoma-on-z390-with-OpenCore)
+4. [Hackintosh v3](https://github.com/shiruken/hackintosh?tab=readme-ov-file)
+5. [CPU INFO MODEL](https://github.com/acidanthera/RestrictEvents)
+6. [Learn OCAuxiliaryTools](https://github.com/5T33Z0/OC-Little-Translated)
+7. [Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
 
 # TO DO
 Upgrade code to OPENCORE (someone wants to help?)

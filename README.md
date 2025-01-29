@@ -4,11 +4,11 @@
 
 # UPDATES or UPGRADES:
 1. Chanque SecureBootModel to Disaable value. 
-1. Change csr-active-config to 03080000 to  disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP:
+1. Change csr-active-config to 03080000 to  disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP.
 
 After successfull update or upgrade you can revert values.
-1. Changue SecureBootModel to Default value.
-2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP)
+1. Change SecureBootModel to Default value.
+2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
 
 # CHANGELOG:
 1. OpenCore 1.0.3 (29/jan/2025)

@@ -2,9 +2,14 @@
 
 ![Screenshot 2024-08-20 at 17 55 58](https://github.com/user-attachments/assets/b92cc91a-a0cc-41c9-979a-32befd6cb0ba)
 
+# UPDATES:
+1. Disable SecureBootModel and 
+1. Disable SIP before install updates:
+   - 03080000 (0x803) → Default Require if you need to apply root patches with OCLP.
+
 # CHANGELOG:
 1. OpenCore 1.0.1 (20/ago/2024)
-   - MacOs Sonoma test 14.6.1 OK (Require Disable SecureBootModel and disable SIP before install updates)
+   - MacOs Sonoma test 14.6.1 OK
 1. OpenCore 1.0 (28/may/2024)
    - MacOs Sonoma test 14.5 OK
    - Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/)

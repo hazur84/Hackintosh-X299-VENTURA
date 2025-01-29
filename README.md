@@ -7,12 +7,14 @@
 1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
 2. Change SecureBootModel to disable value. 
 1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP.
-2. Change GateKeeper in terminal write: sudo spctl –global-disable (for the lasted versions of Ventura or higher).
+2. Change GateKeeper launch terminal and enter the following command:
+   - sudo spctl –global-disable (for the lasted versions of Ventura or higher).
 
 ## After successfull update or upgrade you can revert values.
 1. Change SecureBootModel to Default value.
 2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
-3. Change GateKeeper in terminal write: sudo spctl –global-enable (for the lasted versions of Ventura or higher).
+3. Change GateKeeper launch terminal and enter the following command:
+   - sudo spctl –global-enable (for the lasted versions of Ventura or higher).
 
 ## Notes about software updates
 
@@ -187,10 +189,10 @@ You will need to create your own Serial Number and SMUUID. Instructions can be f
 
 Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup hard drive instalation second boot.
 
-# RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900)
-
-AMD RX 5X00 or 6X00 on Ventura or higher with iMacPro1,1 SMBIOS
-AMD Navi cards run fine on Ventura or higher when using iMac SMBIOS with **agdpmod=pikera** in boot args as the only needed setting. But when using MacPro or iMacPro SMBIOS a lot of users have reported black screen. The simplest way to fix this is to add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
+# Fix black screen with RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900) on Ventura or higher 
+- Use iMacPro1,1 SMBIOS
+- **agdpmod=pikera** in boot args. 
+- Add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
 
 <img width="956" alt="Screenshot 2023-01-06 at 11 57 31" src="https://user-images.githubusercontent.com/8379954/211070820-06f5ce09-feb8-4646-b36f-c474d2e2ec1c.png">
 
@@ -241,10 +243,8 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 
 
 # Problems with USB ports
-Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 
-# Prerequisites and Open Core upgrades
-https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
+Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 
 # Tools Downloads
 
@@ -257,12 +257,7 @@ https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html
 2. [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) Mount EFI terminal
 1. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files
 1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
-
-# OTHERS
-
-Disable Gatekeeper With Terminal
-1. Launch Terminal from Applications > Utilities.
-2. Enter the following command: sudo spctl --master-disable
+2. [Prerequisites and Open Core upgrades](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html)
 
 # CREDITS
 

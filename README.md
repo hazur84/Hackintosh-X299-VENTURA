@@ -251,6 +251,10 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
 2. [Prerequisites and Open Core upgrades](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=hazur84/Hackintosh-X299-VENTURA&type=Date)](https://star-history.com/#5T33Z0/OC-Little-Translated&Date)
+
 # CREDITS
 
 1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) Asus X299 setup base-EFI

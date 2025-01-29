@@ -12,7 +12,7 @@
 After successfull update or upgrade you can revert values.
 1. Change SecureBootModel to Default value.
 2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
-3. Chanque GateKeeper in terminal write: sudo spctl –global-enable (last versions of Ventura).
+3. Change GateKeeper in terminal write: sudo spctl –global-enable (last versions of Ventura).
 
 ## Notes about software updates
 

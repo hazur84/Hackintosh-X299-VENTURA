@@ -9,14 +9,14 @@ Before install updates, upgrades or apply root patches:
 2. Change SecureBootModel to disable value. 
 1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) 
 2. Change GateKeeper launching terminal and enter the following command:
-   - sudo spctl –global-disable (for the lasted versions of Ventura or higher).
+   - sudo spctl --master-disable 
 
 ## After successfull update or upgrade you can revert values.
 1. Change SecureBootModel to Default value.
 2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
 3. Change GateKeeper launching terminal and enter the following command:
-   - sudo spctl –global-enable (for the lasted versions of Ventura or higher).
-
+   - sudo spctl --master-enable
+    
 ## Notes about software updates
 
 1. Getting Update notification

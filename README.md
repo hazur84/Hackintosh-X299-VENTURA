@@ -4,16 +4,17 @@
 ![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)
 
 # UPDATES or UPGRADES:
+Before install updates, upgrades or apply root patches with OCLP:
 1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
 2. Change SecureBootModel to disable value. 
-1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP.
-2. Change GateKeeper launch terminal and enter the following command:
+1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) 
+2. Change GateKeeper launching terminal and enter the following command:
    - sudo spctl –global-disable (for the lasted versions of Ventura or higher).
 
 ## After successfull update or upgrade you can revert values.
 1. Change SecureBootModel to Default value.
 2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
-3. Change GateKeeper launch terminal and enter the following command:
+3. Change GateKeeper launching terminal and enter the following command:
    - sudo spctl –global-enable (for the lasted versions of Ventura or higher).
 
 ## Notes about software updates

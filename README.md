@@ -3,7 +3,7 @@
 ![Screenshot 2024-08-20 at 17 55 58](https://github.com/user-attachments/assets/b92cc91a-a0cc-41c9-979a-32befd6cb0ba)
 
 # UPDATES or UPGRADES:
-1. Chanque SecureBootModel to Disaable value. 
+1. Change SecureBootModel to Disaable value. 
 1. Change csr-active-config to 03080000 to  disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP.
 
 After successfull update or upgrade you can revert values.

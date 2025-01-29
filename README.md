@@ -8,13 +8,15 @@ Before install updates, upgrades or apply root patches:
 1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
 2. Change SecureBootModel to disable value. 
 1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) 
-2. Change GateKeeper launching terminal and enter the following command:
-   - sudo spctl --master-disable 
+2. Change GateKeeper launching terminal run the following command:
+   - sudo spctl --master-disable --> Type Password --> Click Enter
+   - In System Settings, navigate out of "Privacy & Security" Page (For Example -- Click on "Lockscreen"), then navigate back to "Privacy & Security"
+   - In System Settings --> Privacy & Security Page --> Scroll Down to bottom --> Select "Allow Application From" --> Select "Anywhere" (the option will now appear) --> Type Password
 
 ## After successfull update or upgrade you can revert values.
 1. Change SecureBootModel to Default value.
 2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
-3. Change GateKeeper launching terminal and enter the following command:
+3. Change GateKeeper launching terminal run the following command:
    - sudo spctl --master-enable
     
 ## Notes about software updates

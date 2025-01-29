@@ -4,7 +4,7 @@
 ![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)
 
 # UPDATES or UPGRADES:
-Before install updates, upgrades or apply root patches with OCLP:
+Before install updates, upgrades or apply root patches:
 1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
 2. Change SecureBootModel to disable value. 
 1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) 

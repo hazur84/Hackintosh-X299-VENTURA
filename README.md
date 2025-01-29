@@ -264,6 +264,6 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 7. [Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
 
 # TO DO
-Upgrade code to OPENCORE (someone wants to help?)
+Upgrade code to the last OPENCORE version (someone wants to help?)
 
 Review this link [Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)

@@ -2,12 +2,18 @@
 
 ![Screenshot 2024-08-20 at 17 55 58](https://github.com/user-attachments/assets/b92cc91a-a0cc-41c9-979a-32befd6cb0ba)
 
-# UPDATES:
-1. Disable SecureBootModel and 
-1. Disable SIP before install updates:
-   - 03080000 (0x803) → Default Require if you need to apply root patches with OCLP.
+# UPDATES or UPGRADES:
+1. Chanque SecureBootModel to Disaable value. 
+1. Change csr-active-config to 03080000 to  disable System Integrity Protection (SIP) before install updates or apply root patches with OCLP:
+
+After successfull update or upgrade you can revert values.
+1. Changue SecureBootModel to Default value.
+2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP)
 
 # CHANGELOG:
+1. OpenCore 1.0.3 (29/jan/2025)
+   - MacOs Sequoia test 15.3 OK
+   - MacOs Sonoma 14.7.3 OK
 1. OpenCore 1.0.1 (20/ago/2024)
    - MacOs Sonoma test 14.6.1 OK
 1. OpenCore 1.0 (28/may/2024)
@@ -15,12 +21,12 @@
    - Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/)
 1. OperCore 0.9.9 (21/april/2024)
    - MacOs Sonoma test 14.4.1 OK
-1. OpenCore 0.9.7 (30/DIC/2023)
+1. OpenCore 0.9.7 (30/Dec/2023)
    - MacOS Ventura 13.6.1 test OK
    - MacOs Sonoma test 14.2.1 OK
    - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
-1. OpenCore 0.8.6 (07/JAN/2023)
+1. OpenCore 0.8.6 (07/jan/2023)
    - MacOS Ventura test OK
    - Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
 

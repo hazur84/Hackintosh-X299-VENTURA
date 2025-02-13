@@ -216,7 +216,7 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 
 Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 
-# Kexts
+## Kexts
 
 |             Kext             |   Version    |                            Author                            |
 | :--------------------------: | :----------: | :----------------------------------------------------------: |

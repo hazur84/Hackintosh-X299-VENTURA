@@ -45,9 +45,6 @@ After the system is updated, RestrictEvents.kext and the boot argument can be di
 | 2023/12/30 | Sonoma 14.2.1 | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ) [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
 | 2023/01/07 | Ventura 13.1 | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
 
-
-## MacOS instalation Ventura or higher:
-
 ## What's not working?
 Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. The only option to fix is using OCLP patch.
 

@@ -1,5 +1,7 @@
 ## Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3
 ![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)
+![About This Mac](https://github.com/user-attachments/assets/9c3dafd1-20b9-48ce-9562-4bc352771206)
+![WhatsApp Image 2024-01-02 at 12 48 59](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/2e72378f-933a-4944-9ba3-fcf33e039ca6)
 
 ## Hardware
 
@@ -27,13 +29,9 @@
 | WebCam | Logitech Brio; C92 PRO |
 | Monitor | TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ|
 
-![About This Mac](https://github.com/user-attachments/assets/9c3dafd1-20b9-48ce-9562-4bc352771206)
-
-
-![WhatsApp Image 2024-01-02 at 12 48 59](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/2e72378f-933a-4944-9ba3-fcf33e039ca6)
-
 ## Hardware for others similar setup x299
 
+[!IMPORTANT]
 Please check [GPU Buyer's Guide](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura or higher
 
@@ -44,6 +42,7 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD RX 6X00 XT (6600; 6800; 6900) this series only support hdmi 2.1 4k@120hz
 1. AMD RX 6X00 XT (6400; 6500; 6650, 6700) this series avoid, not working in macos out the box.
 
+[!IMPORTANT]
 Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
 
 1. Anything HDSSD eMMC.

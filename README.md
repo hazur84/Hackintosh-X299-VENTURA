@@ -34,24 +34,18 @@ Before install updates, upgrades or apply root patches:
 After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal operation.
 
 # CHANGELOG:
-| Date | MacOS | OpenCore |
-| :--------------------------: | :----------: | :----------: |
-| 29/jan/2025 | MacOs Sequoia test 15.3 OK |1.0.3 |
-| 29/jan/2025 | MacOs Sonoma 14.7.3 OK |1.0.3 |   
-| 20/ago/2024 | MacOs Sonoma test 14.6.1 OK | 1.0.1 |  
-| 28/may/2024 | MacOs Sonoma test 14.5 OK | 1.0 |
-   - 
-   - Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/)
-| OperCore 0.9.9 (21/april/2024)
-   - MacOs Sonoma test 14.4.1 OK
-| OpenCore 0.9.7 (30/Dec/2023)
-   - MacOS Ventura 13.6.1 test OK
-   - MacOs Sonoma test 14.2.1 OK
-   - Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
-[OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
-| OpenCore 0.8.6 (07/jan/2023)
-   - MacOS Ventura test OK
-   - Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI)
+| Date | MacOS | OpenCore | Notes | 
+| :--------------------------: | :----------: | :----------: | :----------: |
+| 29/jan/2025 | Sequoia test 15.3 OK |1.0.3 |
+| 29/jan/2025 | Sonoma 14.7.3 OK |1.0.3 |   
+| 20/ago/2024 | Sonoma test 14.6.1 OK | 1.0.1 |  
+| 28/may/2024 | Sonoma test 14.5 OK | 1.0 | Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/) |
+| 21/april/2024 | Sonoma test 14.4.1 OK | 0.9.9 | 
+| 30/Dec/2023 | Ventura 13.6.1 test OK | 0.9.7 | 
+| 30/Dec/2023 | Sonoma test 14.2.1 OK | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
+[OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
+| 07/jan/2023 | Ventura test OK | 0.8.6 |    |
+
 
 # MacOS instalation Ventura or higher:
 

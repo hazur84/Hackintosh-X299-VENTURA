@@ -65,7 +65,7 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 >1. Samsung 970 Evo Plus
 >1. Intel 600p
 
-WiFi cards supported (avoid all others):
+### WiFi cards supported (avoid all others):
 
 BCM943XXX (BCM94350, BCM94352; BCM94360; BCM943602)
 

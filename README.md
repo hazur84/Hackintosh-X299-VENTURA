@@ -162,7 +162,7 @@ You will need to create your own Serial Number and SMUUID. Instructions can be f
 
 Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup hard drive instalation second boot.
 
-## Fix black screen with RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900) on Ventura or higher 
+## Fix black screen with RX6X00 (6600; 6800; 6900) on Ventura or higher 
 - Use iMacPro1,1 SMBIOS
 - **agdpmod=pikera** in boot args. 
 - Add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.

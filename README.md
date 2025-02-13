@@ -28,9 +28,7 @@
 | keyboard | Logitech Keyboard MX |
 | Audio | Plantronics Diadema USB |
 | WebCam | Logitech Brio; C92 PRO |
-
->[!TIP]
->| Monitor | TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ|
+| Monitor | TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ|
 
 ## Hardware for others similar setup x299
 
@@ -41,8 +39,9 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD WX X100 (4100; 5100; 7100; 9100)
 1. AMD RX VEGA (56; 64) 
 1. AMD RX 5XX (560; 570; 580; 590) 
-1. AMD RX 5X00 XT (5500; 5600; 5700) 
-1. AMD RX 6X00 XT (6600; 6650; 6800; 6900; 6950) this series only support hdmi 2.1 4k@120hz
+1. AMD RX 5X00 XT (5500; 5600; 5700)
+>[!TIP]
+>1. AMD RX 6X00 XT (6600; 6650; 6800; 6900; 6950) this series only support hdmi 2.1 4k@120hz
 >[!WARNING]
 >This series avoid, not working in macos out the box.   
 >1. AMD RX 6X00 XT (6300; 6400; 6500; 6700; 6750) 

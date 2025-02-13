@@ -32,6 +32,8 @@
 
 ## Hardware for others similar setup x299
 
+### GPU Verified
+
 >[!IMPORTANT]
 >Please check [GPU Buyer's Guide](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura or higher
@@ -57,7 +59,7 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 >1. Samsung 970 Evo Plus
 >1. Intel 600p
 
-Hard drives verified:
+### Hard drives verified:
 
 1. Western Digital [SNXXX](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) 
 1. Kioxa / Toshiba [KXG60ZNVXXXX](https://americas.kioxia.com/es-lar/business/ssd/client-ssd/xg6.html)

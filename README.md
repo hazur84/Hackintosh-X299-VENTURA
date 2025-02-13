@@ -258,7 +258,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 
 # Tools Downloads
 
-1. [OpenCore 1.0](https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
+1. [OpenCore release](https://github.com/acidanthera/OpenCorePkg/tree/master) (inside find Referece Manual in /Docs/Configuration.pdf)
 1. [OpenCore Reference Manual](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
 1. [ProperTree](https://github.com/corpnewt/ProperTree) to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data

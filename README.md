@@ -232,16 +232,16 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 [![Star History Chart](https://api.star-history.com/svg?repos=hazur84/Hackintosh-X299-VENTURA&type=Date)](https://star-history.com/#5T33Z0/OC-Little-Translated&Date)
 
 ## Changelog:
-| Date | MacOS | OC | Notes | 
-| ---------- | -------------- | ----- | ---------- |
-| 2025/01/29 | Sequoia 15.3   | 1.0.3 |
-| 2025/01/29 | Sonoma 14.7.3  | 1.0.3 |   
-| 2024/08/20 | Sonoma 14.6.1  | 1.0.1 |  
-| 2024/05/28 | Sonoma 14.5    | 1.0   | Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/) |
-| 2024/04/21 | Sonoma 14.4.1  | 0.9.9 | 
-| 2023/12/30 | Ventura 13.6.1 | 0.9.7 | 
-| 2023/12/30 | Sonoma 14.2.1  | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ) [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
-| 2023/01/07 | Ventura 13.1 | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
+| Date       | MacOS          | OpenCore | Notes | 
+| ---------- | -------------- | -------- | ----- |
+| 2025/01/29 | Sequoia 15.3   | 1.0.3    |
+| 2025/01/29 | Sonoma 14.7.3  | 1.0.3    |   
+| 2024/08/20 | Sonoma 14.6.1  | 1.0.1    |  
+| 2024/05/28 | Sonoma 14.5    | 1.0      | Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/) |
+| 2024/04/21 | Sonoma 14.4.1  | 0.9.9    | 
+| 2023/12/30 | Ventura 13.6.1 | 0.9.7    | 
+| 2023/12/30 | Sonoma 14.2.1  | 0.9.7    | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ) [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
+| 2023/01/07 | Ventura 13.1 | 0.8.6      | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
 
 ## Credits
 

@@ -31,8 +31,8 @@
 
 ## Hardware for others similar setup x299
 
-[!IMPORTANT]
-Please check [GPU Buyer's Guide](
+>[!IMPORTANT]
+>Please check [GPU Buyer's Guide](
 https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-gpus) compatible with MacOS Ventura or higher
 
 1. AMD WX X100 (4100; 5100; 7100; 9100)
@@ -42,8 +42,8 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD RX 6X00 XT (6600; 6800; 6900) this series only support hdmi 2.1 4k@120hz
 1. AMD RX 6X00 XT (6400; 6500; 6650, 6700) this series avoid, not working in macos out the box.
 
-[!IMPORTANT]
-Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
+>[!IMPORTANT]
+>Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
 
 1. Anything HDSSD eMMC.
 1. Samsung PM981 y PM991 

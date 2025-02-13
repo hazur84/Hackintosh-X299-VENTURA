@@ -45,7 +45,6 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 
 >[!WARNING]
 >Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
-
 >1. Anything HDSSD eMMC.
 >1. Samsung PM981 y PM991 
 >1. Micron 2200S

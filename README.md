@@ -34,8 +34,8 @@ Before install updates, upgrades or apply root patches:
 After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal operation.
 
 # CHANGELOG:
-| Date | MacOS | OpebCore |
-| :--------------------------: | :----------: |
+| Date | MacOS | OpenCore |
+| :--------------------------: | :----------: | :----------: |
 | 29/jan/2025 | MacOs Sequoia test 15.3 OK |1.0.3 |
 | 29/jan/2025 | MacOs Sonoma 14.7.3 OK |1.0.3 |   
 | 20/ago/2024 | MacOs Sonoma test 14.6.1 OK | 1.0.1 |  

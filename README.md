@@ -1,9 +1,9 @@
-# Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3 (29/jan/2025)
+## Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3 (29/jan/2025)
 
 
 ![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)
 
-# UPDATES or UPGRADES:
+## Updates or Upgrades:
 Before install updates, upgrades or apply root patches:
 1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
 2. Change SecureBootModel to disable value. 
@@ -33,7 +33,7 @@ Before install updates, upgrades or apply root patches:
 
 After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal operation.
 
-# CHANGELOG:
+## Changelog:
 | Date | MacOS | OpenCore | Notes | 
 | :--------------------------: | :----------: | :----------: | :----------: |
 | 2025/01/29 | Sequoia 15.3 |1.0.3 |
@@ -46,7 +46,7 @@ After the system is updated, RestrictEvents.kext and the boot argument can be di
 | 2023/01/07 | Ventura 13.1 | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
 
 
-# MacOS instalation Ventura or higher:
+## MacOS instalation Ventura or higher:
 
 ## What's not working?
 Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. The only option to fix is using OCLP patch.
@@ -117,7 +117,7 @@ WiFi cards supported (avoid all others):
 
 BCM943XXX (BCM94350, BCM94352; BCM94360; BCM943602)
 
-# SETUP BIOS MOTHERBOARD
+## SETUP BIOS MOTHERBOARD
 
 Reset to Default Settings before adjusting to these settings. It is recommended to use one of the more recent BIOS revisions.
 
@@ -156,7 +156,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
     - OS Type / Other OS
 
 
-# USB pendrive instalation
+## USB pendrive instalation
 
 1. Check this [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) for create usb boot of instalation.
 
@@ -248,7 +248,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 |     CpuTscSync.kext          |    v1.1.0    | [acidanthera/CpuTscSync](https://github.com/acidanthera/CpuTscSync/releases)      |
 |      WhateverGreen.kext      |    v1.6.7    | [acidanthera/WhateverGreen/](https://github.com/acidanthera/WhateverGreen/releases) |
 
-# Tools Downloads
+## Tools Downloads
 
 1. [OpenCore release](https://github.com/acidanthera/OpenCorePkg/tree/master) (inside find Referece Manual in /Docs/Configuration.pdf)
 1. [OpenCore Reference Manual](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
@@ -263,7 +263,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 
 [![Star History Chart](https://api.star-history.com/svg?repos=hazur84/Hackintosh-X299-VENTURA&type=Date)](https://star-history.com/#5T33Z0/OC-Little-Translated&Date)
 
-# CREDITS
+## CREDITS
 
 1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) Asus X299 setup base-EFI
 1. [Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)
@@ -275,7 +275,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 6. [Learn OCAuxiliaryTools](https://github.com/5T33Z0/OC-Little-Translated)
 7. [Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
 
-# TO DO
+## TO DO
 Upgrade code to the last OPENCORE version (someone wants to help?)
 
 Review this link [Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)

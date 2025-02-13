@@ -43,8 +43,8 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD RX 6X00 XT (6600; 6650; 6800; 6900; 6950) this series only support hdmi 2.1 4k@120hz
 >[!WARNING]
 >This series avoid, not working in macos out the box.   
->1. AMD RX 6X00 XT (6400; 6500; 6700; 6750) 
->2. AMD RX 7X00 XT (7600, 7700, 7800, 7900) 
+>1. AMD RX 6X00 XT (6300; 6400; 6500; 6700; 6750) 
+>2. AMD RX 7X00 XT (7600; 7700; 7800; 7900) 
 
 >[!WARNING]
 >Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):

@@ -42,6 +42,7 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD RX 5X00 XT (5500; 5600; 5700)
 >[!TIP]
 >1. AMD RX 6X00 XT (6600; 6650; 6800; 6900; 6950) this series only support hdmi 2.1 4k@120hz
+
 >[!WARNING]
 >This series avoid, not working in macos out the box.   
 >1. AMD RX 6X00 XT (6300; 6400; 6500; 6700; 6750) 

@@ -154,7 +154,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 4. Setup the file config.plist 
 
-# Setup file config.plist
+## Setup file config.plist
 
 You will need to create your own Serial Number and SMUUID. Instructions can be found [here](https://dortania.github.io/OpenCore-Install-Guide/config-HEDT/skylake-x.html#platforminfo). Remember to adjust the SMBIOS a iMacPro1,1
 

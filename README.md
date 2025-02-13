@@ -1,56 +1,5 @@
 ## Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3
-
-
 ![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)
-
-## Updates or Upgrades:
-Before install updates, upgrades or apply root patches:
-1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
-2. Change SecureBootModel to disable value. 
-1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) 
-2. Change GateKeeper launching terminal run the following command:
-   - sudo spctl --global-disabe
-   - In System Settings --> Privacy & Security Page --> Scroll Down to bottom --> Select "Allow Application From" --> Select "Anywhere"
-   - sudo spctl --status (check status)
-
-## After successfull update or upgrade you can revert values.
-1. Change SecureBootModel to Default value.
-2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
-3. Change GateKeeper launching terminal run the following command:
-   - sudo spctl --global-enable
-   - sudo spctl --status (check status)
-    
-## Notes about software updates
-
-1. Getting Update notification
-   - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
-   - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
-
-2. Size of the update (full or incremental)
-   - Systems where the OCLP root patch has not been applied or has been reverted:
-   - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
-   - All systems that have the OCLP root patch applied receive full-size updates.
-
-After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal operation.
-
-## Changelog:
-| Date | MacOS | OpenCore | Notes | 
-| :--------------------------: | :----------: | :----------: | :----------: |
-| 2025/01/29 | Sequoia 15.3 |1.0.3 |
-| 2025/01/29 | Sonoma 14.7.3 |1.0.3 |   
-| 2024/08/20 | Sonoma 14.6.1 | 1.0.1 |  
-| 2024/05/28 | Sonoma 14.5 | 1.0 | Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/) |
-| 2024/04/21 | Sonoma 14.4.1 | 0.9.9 | 
-| 2023/12/30 | Ventura 13.6.1 | 0.9.7 | 
-| 2023/12/30 | Sonoma 14.2.1 | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ) [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
-| 2023/01/07 | Ventura 13.1 | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
-
-## What's not working?
-Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. The only option to fix is using OCLP patch.
-
-## Installing macOS from scratch:
-   - Creating USB boot media to install from scratch ( [USB pendrive instalation](#usb-pendrive-instalation) section ).
-   - Reboot from the USB device and begin Sonoma installation.
 
 ## Hardware
 
@@ -114,6 +63,56 @@ WiFi cards supported (avoid all others):
 
 BCM943XXX (BCM94350, BCM94352; BCM94360; BCM943602)
 
+
+## Updates or Upgrades:
+Before install updates, upgrades or apply root patches:
+1. Update the last version OpenCore and kexts from EFI foldder with OCAuxiliaryTools. 
+2. Change SecureBootModel to disable value. 
+1. Change csr-active-config to 03080000 to disable System Integrity Protection (SIP) 
+2. Change GateKeeper launching terminal run the following command:
+   - sudo spctl --global-disabe
+   - In System Settings --> Privacy & Security Page --> Scroll Down to bottom --> Select "Allow Application From" --> Select "Anywhere"
+   - sudo spctl --status (check status)
+
+## After successfull update or upgrade you can revert values.
+1. Change SecureBootModel to Default value.
+2. Change csr-active-config to 00000000 to enable System Integrity Protection (SIP).
+3. Change GateKeeper launching terminal run the following command:
+   - sudo spctl --global-enable
+   - sudo spctl --status (check status)
+    
+## Notes about software updates
+
+1. Getting Update notification
+   - iMacPro1,1 (iMac Pro 27″, late 2017) models do have a T2 chip and, when using these SMBIOS models, you do not receive update notifications
+   - iMacPro1,1 models receive update notifications if configured as vmm (virtual machine): revpatch=sbvmm in boot-args along with RestrictEvents.kext.
+
+2. Size of the update (full or incremental)
+   - Systems where the OCLP root patch has not been applied or has been reverted:
+   - iMacPro1,1 require revpatch=sbvmm in boot-args along with RestrictEvents.kext to get incremental updates, without this setting you get full-size updates
+   - All systems that have the OCLP root patch applied receive full-size updates.
+
+After the system is updated, RestrictEvents.kext and the boot argument can be disabled because they are not required for normal operation.
+
+## Changelog:
+| Date | MacOS | OpenCore | Notes | 
+| :--------------------------: | :----------: | :----------: | :----------: |
+| 2025/01/29 | Sequoia 15.3 |1.0.3 |
+| 2025/01/29 | Sonoma 14.7.3 |1.0.3 |   
+| 2024/08/20 | Sonoma 14.6.1 | 1.0.1 |  
+| 2024/05/28 | Sonoma 14.5 | 1.0 | Add CPUINFO Model in About This Mac, thanks, [frontgear](https://www.tonymacx86.com/threads/solved-processor-name-missing-from-about-this-mac-screen.327255/) |
+| 2024/04/21 | Sonoma 14.4.1 | 0.9.9 | 
+| 2023/12/30 | Ventura 13.6.1 | 0.9.7 | 
+| 2023/12/30 | Sonoma 14.2.1 | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ) [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
+| 2023/01/07 | Ventura 13.1 | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
+
+## What's not working?
+Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi present on Macs before 2017. Fenvi T919 and HB1200 have BCM4360 chipsets (not supported) so Wi-Fi does not work in Sonoma. Bluetooth works fine. This is a serious inconvenience because functions related to the Apple ecosystem (Airdrop, Continuity Camera, etc.) are also lost. The only option to fix is using OCLP patch.
+
+## Installing macOS from scratch:
+   - Creating USB boot media to install from scratch ( [USB pendrive instalation](#usb-pendrive-instalation) section ).
+   - Reboot from the USB device and begin Sonoma installation.
+
 ## SETUP BIOS MOTHERBOARD
 
 Reset to Default Settings before adjusting to these settings. It is recommended to use one of the more recent BIOS revisions.
@@ -173,7 +172,7 @@ You will need to create your own Serial Number and SMUUID. Instructions can be f
 
 Reboot and accesss to BIOS, insert usb pendrive and setup first boot then, setup hard drive instalation second boot.
 
-# Fix black screen with RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900) on Ventura or higher 
+## Fix black screen with RX5X00 (5500; 5600; 5700) and RX6X00 (6600; 6800; 6900) on Ventura or higher 
 - Use iMacPro1,1 SMBIOS
 - **agdpmod=pikera** in boot args. 
 - Add in DeviceProperties of config.plist properties that set Henbury framebuffer for each of the 4 ports of this GPU.
@@ -226,7 +225,7 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 |6900	|ATY,Carswell|
 
 
-# Problems with USB ports
+## Problems with USB ports
 
 Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 

@@ -241,6 +241,22 @@ If needed for other Navi cards, the framebuffers to be loaded are different for 
 
 Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-mapping/intel.html) as a proper guide to map your USB ports.
 
+# Kexts
+
+|             Kext             |   Version    |                            Author                            |
+| :--------------------------: | :----------: | :----------------------------------------------------------: |
+|          Lilu.kext           |    v1.6.8    | [acidanthera/Lilu](https://github.com/acidanthera/Lilu/releases) |
+|      SMCProcessor.kext       |    v1.3.3    | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) |
+|       SMCSuperIO.kext        |    v1.3.3    | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) |
+|       VirtualSMC.kext        |    v1.3.3    | [acidanthera/VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases) |
+|      RadeonSensor.kext       |    v2.2.0    | [ChefKissInc/RadeonSensor](https://github.com/ChefKissInc/RadeonSensor/releases) |
+|     RestrictEvents.kext      |    v1.1.4    | [acidanthera/RestrictEvents](https://github.com/acidanthera/RestrictEvents) |
+|         NVMeFix.kext         |    v1.1.1    | [acidanthera/NVMeFix](https://github.com/acidanthera/NVMeFix) |
+|     AppleALC.kext            |    v1.9.1    | [acidanthera/AppleALC](https://github.com/acidanthera/AppleALC/releases)          |
+|     CpuTscSync.kext          |    v1.1.0    | [acidanthera/CpuTscSync](https://github.com/acidanthera/CpuTscSync/releases)      |
+|         UTBMap.kext          |    v1.1.1    | [USBToolBox/tool](https://github.com/USBToolBox/tool)     |
+|      WhateverGreen.kext      |    v1.6.7    | [acidanthera/WhateverGreen/](https://github.com/acidanthera/WhateverGreen/releases) |
+
 # Tools Downloads
 
 1. [OpenCore 1.0](https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)

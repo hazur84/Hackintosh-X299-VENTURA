@@ -233,7 +233,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 
 ## Changelog:
 | Date       | MacOS          | OpenCore | Notes | 
-| ---------- | -------------- | -------- | ----- |
+| ---------- |----------------|----------|-----|
 | 2025/01/29 | Sequoia 15.3   | 1.0.3    |
 | 2025/01/29 | Sonoma 14.7.3  | 1.0.3    |   
 | 2024/08/20 | Sonoma 14.6.1  | 1.0.1    |  

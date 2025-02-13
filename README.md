@@ -64,7 +64,7 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
 
 ## SETUP
 
-1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3801] (https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
+1. Motherboard [ROG RAMPAGE VI APEX](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/) - [BIOS 3801](https://rog.asus.com/motherboards/rog-rampage/rog-rampage-vi-apex-model/helpdesk_bios/)
 1. CPU [Intel® Core™ i9-9920X](https://www.intel.com/content/www/us/en/products/sku/189127/intel-core-i99920x-xseries-processor-19-25m-cache-up-to-4-50-ghz/specifications.html) (3.5GHz @ 165W, Cache L3:19.25M, 12 Cores)
 1. RAM 64Gb 16Gb x4 @ 3,600 Mhz [XPG D60G](https://www.xpg.com/us/xpg/843) DDR4 Quad Channel
 1. GPU [NITRO+ AMD Radeon™ RX 6600 XT](https://www.sapphiretech.com.cn/en/consumer/nitro-radeon-rx-6600-xt-8g-gddr6) 8Gb

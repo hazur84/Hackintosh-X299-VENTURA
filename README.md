@@ -1,4 +1,4 @@
-## Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3 (29/jan/2025)
+## Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3
 
 
 ![NeoFetch](https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0)

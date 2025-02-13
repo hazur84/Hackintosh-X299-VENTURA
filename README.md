@@ -261,7 +261,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 | 2023/12/30 | Sonoma 14.2.1 | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ) [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
 | 2023/01/07 | Ventura 13.1 | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
 
-## CREDITS
+## Credits
 
 1. [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) Asus X299 setup base-EFI
 1. [Setup RX6600XT in Ventura](https://github.com/perez987/macOS-12-13-on-Z390-with-OpenCore)
@@ -273,7 +273,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 6. [Learn OCAuxiliaryTools](https://github.com/5T33Z0/OC-Little-Translated)
 7. [Fixing audio with AppleALC](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html)
 
-## TO DO
+## To do
 Upgrade code to the last OPENCORE version (someone wants to help?)
 
 Review this link [Updating OpenCore and macOS](https://dortania.github.io/OpenCore-Post-Install/universal/update.html#updating-opencore)

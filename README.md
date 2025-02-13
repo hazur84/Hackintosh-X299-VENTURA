@@ -43,8 +43,8 @@ After the system is updated, RestrictEvents.kext and the boot argument can be di
 | 21/april/2024 | Sonoma test 14.4.1 OK | 0.9.9 | 
 | 30/Dec/2023 | Ventura 13.6.1 test OK | 0.9.7 | 
 | 30/Dec/2023 | Sonoma test 14.2.1 OK | 0.9.7 | Upgrade OpenCore, thanks, [Ani JD, Youtbe Channel](https://www.youtube.com/watch?v=RZF75faxqTQ)
-[OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
-| 07/jan/2023 | Ventura test OK | 0.8.6 |    |
+[OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) | 
+| 07/jan/2023 | Ventura test OK | 0.8.6 | Upgrade OpenCore, thanks, [SHINOKI77](https://github.com/shinoki77/ASUS-X299-Hackintosh/tree/main/BASE-EFI) |
 
 
 # MacOS instalation Ventura or higher:

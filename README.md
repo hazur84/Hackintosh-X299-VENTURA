@@ -28,7 +28,8 @@
 | keyboard | Logitech Keyboard MX |
 | Audio | Plantronics Diadema USB |
 | WebCam | Logitech Brio; C92 PRO |
-| Monitor | TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ|
+>[!TIP]
+>| Monitor | TV LG OLED EVO 42 [OLED42C2PSA](https://www.lg.com/mx/televisores/lg-oled42c2psa) HDMI 2.1 4K@120HZ|
 
 ## Hardware for others similar setup x299
 

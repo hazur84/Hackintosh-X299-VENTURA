@@ -43,15 +43,15 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 1. AMD RX 6X00 XT (6600; 6800; 6900) this series only support hdmi 2.1 4k@120hz
 1. AMD RX 6X00 XT (6400; 6500; 6650, 6700) this series avoid, not working in macos out the box.
 
->[!IMPORTANT]
+>[!WARNING]
 >Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
 
-1. Anything HDSSD eMMC.
-1. Samsung PM981 y PM991 
-1. Micron 2200S
-1. SKHynix PC711
-1. Samsung 970 Evo Plus
-1. Intel 600p
+>1. Anything HDSSD eMMC.
+>1. Samsung PM981 y PM991 
+>1. Micron 2200S
+>1. SKHynix PC711
+>1. Samsung 970 Evo Plus
+>1. Intel 600p
 
 Hard drives verified:
 

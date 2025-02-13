@@ -1,5 +1,5 @@
 ## Hackintosh X299 MacOS Sequoia 15.3 - RX6600XT - OC 1.0.3
-<img src="https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0" width=73%>
+<img src="https://github.com/user-attachments/assets/8c9b6bcd-5da3-4b26-89a0-51091615a1b0" width=74%>
 <img src="https://github.com/user-attachments/assets/9c3dafd1-20b9-48ce-9562-4bc352771206" width=25%>
 
 ![WhatsApp Image 2024-01-02 at 12 48 59](https://github.com/hazur84/Hackintosh-X299-VENTURA/assets/8379954/2e72378f-933a-4944-9ba3-fcf33e039ca6)

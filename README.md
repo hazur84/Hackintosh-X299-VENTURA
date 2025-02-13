@@ -232,7 +232,7 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 [![Star History Chart](https://api.star-history.com/svg?repos=hazur84/Hackintosh-X299-VENTURA&type=Date)](https://star-history.com/#5T33Z0/OC-Little-Translated&Date)
 
 ## Changelog:
-| Date | MacOS | OpenCore | Notes | 
+| Date | MacOS | OC | Notes | 
 | ---------- | -------------- | ----- | ---------- |
 | 2025/01/29 | Sequoia 15.3   | 1.0.3 |
 | 2025/01/29 | Sonoma 14.7.3  | 1.0.3 |   

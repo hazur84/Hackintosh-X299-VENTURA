@@ -50,6 +50,12 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 >1. AMD RX 6X00 XT (6300; 6400; 6500; 6700; 6750) 
 >2. AMD RX 7X00 XT (7600; 7700; 7800; 7900) 
 
+### Hard drives verified:
+
+1. Western Digital [SNXXX](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) 
+1. Kioxa / Toshiba [KXG60ZNVXXXX](https://americas.kioxia.com/es-lar/business/ssd/client-ssd/xg6.html)
+4. Patriot
+
 >[!WARNING]
 >Avoid this hard drives, please review this [link](https://elitemacx86.com/threads/storage-compatibility-for-macos.875/):
 >1. Anything HDSSD eMMC.
@@ -58,12 +64,6 @@ https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/amd-gpu.html#native-amd-
 >1. SKHynix PC711
 >1. Samsung 970 Evo Plus
 >1. Intel 600p
-
-### Hard drives verified:
-
-1. Western Digital [SNXXX](https://www.westerndigital.com/products/internal-drives/pc-sn730-ssd#specifications) 
-1. Kioxa / Toshiba [KXG60ZNVXXXX](https://americas.kioxia.com/es-lar/business/ssd/client-ssd/xg6.html)
-4. Patriot
 
 WiFi cards supported (avoid all others):
 

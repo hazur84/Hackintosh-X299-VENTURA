@@ -74,7 +74,7 @@ Fenvi T919 Wi-Fi: macOS Sonoma has dropped support for all Broadcom Wi-Fi presen
 | Fans | Noctua 120mm x3 [NF-P12] |(https://www.amazon.com.mx/gp/product/B07CG2PGY6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 | Fans | Noctua 60mm x2 [NF-A6x25] |(https://www.amazon.com.mx/gp/product/B00VXTANZ4/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 | Fans | Noctua 92mm x1 [NF-B9](https://www.amazon.com.mx/Noctua-NF-B9-redux-1600-PWM-Ventilador/dp/B00KF7S9F6/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3158ITVJGOVPM&keywords=noctua+92mm&sprefix=noctua+92mm%2Caps%2C163&sr=8-3&ufe=app_do%3Aamzn1.fos.4e545b5e-1d45-498b-8193-a253464ffa47) |
-| WiFi & Bluetooth | [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3) |
+| Bluetooth | [BCM943602](https://www.amazon.com.mx/Willhom-BCM94360CS2-Bluetooth-Wireless-661-7465/dp/B07BQ976CR/ref=sr_1_5?keywords=BCM943602&qid=1673330954&sr=8-5) with [pcie bracket](https://www.amazon.com.mx/BCM943224PCIEBT2-bcm94360CS2-BCM943602CS-Bluetooth-Hackintosh/dp/B07CZFVWSZ/ref=sr_1_3?__mk_es_MX=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=37UM2475ZG6IB&keywords=bcm94360CS2&qid=1673331306&sprefix=bcm94360cs2%2Caps%2C95&sr=8-3) |
 | trackpad | Magic Trackpad |
 | keyboard | Logitech Keyboard MX |
 | Audio | Plantronics Diadema USB |

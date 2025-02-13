@@ -168,7 +168,7 @@ Reset to Default Settings before adjusting to these settings. It is recommended 
 
 1. Check this [tutorial](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#downloading-macos-modern-os) for create usb boot of instalation.
 
-1. Mount the partition USB EFI with [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) or [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
+1. Mount the partition USB EFI with [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 
 2. Download the file EFI.zip on this Github project.
 
@@ -259,12 +259,10 @@ Please use [this](https://dortania.github.io/OpenCore-Post-Install/usb/intel-map
 # Tools Downloads
 
 1. [OpenCore 1.0](https://github.com/acidanthera/OpenCorePkg/releases/download/1.0.1/OpenCore-1.0.1-RELEASE.zip) (inside find Referece Manual in /Docs/Configuration.pdf)
-1. [OpenCore Reference Manual 1.0](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
+1. [OpenCore Reference Manual](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf)
 1. [ProperTree](https://github.com/corpnewt/ProperTree) to edit .plist files 
 1. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generating our SMBIOS data
-1. [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/) Mount EFI to mount EFI partitions and edit config.plist
-1. [Mount EFI](https://github.com/corpnewt/MountEFI) Mount EFI terminal
-2. [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) Mount EFI terminal
+2. [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) Mount EFI partitions and edit config.plist
 1. [Kext Updater](https://www.sl-soft.de/en/kext-updater/) to update kext files
 1. [HackinTool](https://github.com/benbaker76/Hackintool) to know PCI Path
 2. [Prerequisites and Open Core upgrades](https://dortania.github.io/OpenCore-Install-Guide/extras/monterey.html)
